@@ -1,0 +1,34 @@
+$nav-width: 232px;
+$content-width: 900px;
+$body-font-family: 'Akkurat Pro Regular';
+$serif-font-family: $body-font-family;
+// $serif-font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+$media-queries: (
+  xs: 320px,
+  sm: 500px,
+  md: 740px,
+  lg: $content-width,
+  xl: 1316px
+) !default;
+
+////////////
+// Colors //
+////////////
+$light-gray: #F6F6F6;
+$light-gray-1: #e7e7e7;
+$grey-lt-000: $light-gray;
+$code-background-color: $light-gray;
+$border-gray: #DDD;
+$sidebar-color: $light-gray;
+$purple-100: #4e2486;
+$purple-200: #5f3992;
+$purple-300: #714f9e;
+$purple-400: #8365aa;
+$purple-500: #947bb6;
+$purple-600: #a691c2;
+$purple-700: #b8a7ce;
+$purple-800: #c9bdda;
+$purple-900: #dbd3e6;
+$purple-1000: #ede9f2;
+$python: #22b8cf;
+$link-color: $purple-200;

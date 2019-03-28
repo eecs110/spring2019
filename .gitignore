@@ -1,0 +1,17 @@
+_site
+.sass-cache
+.jekyll-metadata
+drafts
+solutions
+exams
+.ipynb_checkpoints
+__pycache__
+Gemfile.lock
+cpd.db
+course-files/**/results/*.db
+course-files/**/results/*.html
+course-files/**/results/*.txt
+course-files/**/results/*.log
+course-files/**/results/*.jpg
+course-files/**/results/*.png
+course-files/**/results/*.json

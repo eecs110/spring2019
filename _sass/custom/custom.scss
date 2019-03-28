@@ -1,0 +1,348 @@
+@import 'https://use.fontawesome.com/releases/v5.6.1/css/all.css';
+@import './_variables.scss';
+@import './_fonts.scss';
+@import './_navigation.scss';
+
+// variables: https://github.com/pmarsceill/just-the-docs/blob/master/_sass/support/_variables.scss
+
+////////////
+// Layout //
+////////////
+
+
+.site-title, h1 {
+    font: 46px/1.2em "Campton Book",Tahoma,sans-serif;
+    color: #4e2a84;
+}
+.main-content {
+    @include mq(md) {
+      margin-left: $nav-width;
+      max-width: $content-width;
+    }
+
+    @include mq(lg) {
+      margin-left: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+    }
+    p, li {
+        font-family: $body-font-family;
+        font-size: 1em;
+    }
+    p {
+        line-height: 1.8em;
+    }
+    li {
+        line-height: 1.5em;
+        margin-bottom: 0.3em;
+    }
+}
+
+.icon-jupyter {
+    width: 35px;
+    margin-left: -4px;
+}
+
+.click-to-preview {
+    &:hover {
+        a {
+            visibility: visible;
+            text-decoration: none;
+        }
+    }
+    a {
+        //visibility: hidden;
+        text-decoration: none;
+    }
+}
+
+
+a {
+    color: $link-color;
+    &:not(.label) {
+        &:hover {
+            color: $purple-600;
+        }
+    }
+}
+::selection {
+    color: $white;
+    background: $purple-400;
+}
+.btn, .btn:hover {
+    margin-top: 6px;
+    color: $link-color;
+    &.btn-purple {
+        background-color: $link-color;
+        color: white;
+    }
+    &.btn-purple:hover {
+        color: white;
+    }
+}
+.label {
+    margin: 0px;
+    margin-bottom: 8px;
+    &.label-purple {
+        background-color: $link-color;
+    }
+    &.label-default {
+        color: #222;
+        background-color: $border-gray;
+    }
+}
+
+.side-bar, .site-title {
+    background-color: $sidebar-color;
+}
+
+code, pre.highlight {
+    background-color: $code-background-color;
+}
+
+//////////////////////////
+// Other Customizations //
+//////////////////////////
+@media (max-width: 45rem) {
+    .page-header .main-content {
+        display: none;
+    }
+}
+// @media (min-width: 46.25rem) {
+.page-header .main-content{
+    justify-content: flex-start;
+    color: #BBB;
+    font-weight: 100;
+}
+// }
+
+.page-content {
+    ul, ol {
+        padding-left: 4em;
+    }
+
+    td, th {
+        font-size: 0.95em !important;
+        strong {
+            font-weight: 600;
+        }
+    }
+    h1 {
+        margin-bottom: 1rem;
+        text-transform: none;
+    }
+
+    h2 {
+        // font-size: 1.6em !important;
+        // font-weight: 500;
+        font: 34px/1.2em "Campton Bold",Impact,sans-serif;
+        color: #4e2a84;
+        margin-bottom: 0px;
+    }
+
+    h3 {
+        font: 22px/1.2em "Akkurat Pro Regular",Arial,sans-serif !important;
+        color: #716c6b;
+        margin-bottom: 0px;
+    }
+    // iframe {
+    //     border: solid 20px $light-gray-1 !important;
+    // }
+    .tbl-files {
+        width: auto !important;
+        td:last-child {
+            min-width: 30px;
+            text-align: center;
+        }
+        .first-column {
+            text-align: center;
+        }
+        .fa, .far, .fas, .fab {
+            color: #999;
+            font-size: 24px;
+            &.fa-database {
+                color: #CCC;
+            }
+            &.fa-python {
+                color: $python;
+            }
+            &.fa-github {
+                color: #444;
+            }
+            &.fa-python {
+                color: $python;
+            }
+        }
+    }
+    table {
+        //width: auto;
+        border: solid 1px #DDD;
+        border-radius: 4px;
+        box-shadow: none;
+        td, th {
+            min-width: 30px;
+        }
+        td:last-child {
+            min-width: 170px;
+        }
+        &.schedule {
+            td, th {
+                vertical-align: top;
+            }
+            td:first-child {
+                text-align: left;
+                font-weight: 600;
+                max-width: 120px;
+            }
+            td:last-child {
+                max-width: 130px;
+            }
+            th {
+                text-align: left;
+            }
+        }
+    }
+
+    blockquote {
+        p, li {
+            font-family: $body-font-family;
+            font-size: 1em;
+            //line-height: 1.4em;
+        }
+        border-left: solid 14px #DDD;
+        /* border-top: solid 1px #DDD; */
+        /* border-right: solid 1px #DDD; */
+        /* border-bottom: solid 1px #DDD; */
+        padding: 5px 5px 5px 15px;
+        margin: 0px 0px 20px 0px;
+        background-color: #F6F6F6;
+    }
+
+    .prose, .prose p, .prose li {
+        font-family: $serif-font-family;
+        font-size: 1.05em;
+        line-height: 1.7em;
+        li {
+            font-size: 1em;
+        }
+    }
+
+    hr {
+        display: none;
+    }
+    .text-delta {
+        display: none;
+        font-size: 1.0em !important;
+        +ul {
+            display: none;
+            li {
+                font-family: $body-font-family;
+                line-height: 1.3em;
+                font-size: 1.0em;
+            }
+        }
+    }
+
+}
+
+#markdown-toc, .navigation-list{
+    li {
+        font-family: $body-font-family;
+        line-height: 1.3em;
+        font-size: 1.0em;
+    }
+    padding-left: 1.5em;
+    ol {
+        padding-left: 2.5em;
+    }
+}
+
+.breadcrumb-nav-list-item, .search-input, .navigation-list-item {
+    font-size: 1.0em !important;
+    i {
+        font-size: 0.8em;
+    }
+}
+
+.fa-external-link-alt {
+    color: #BBB;
+}
+
+.d-inline-block {
+    font-size: 1.2em !important;
+}
+
+.download-link {
+    padding: 1px 3px;
+    border: solid 1px #2869e6;
+    // border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    color: #FFF;
+    background: #2869e6;
+    &:hover {
+        color: #2869e6;
+        background: #EEE;
+    }
+}
+.btn-outline {
+    color: #5f3992;
+}
+.btn-small {
+    display: inline;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: 1.6;
+    padding: 2px 8px 3px 8px;
+    color: #5f3992;
+    font-size: 0.95em;
+}
+@mixin small-button() {
+    background: transparent;
+        box-shadow: inset 0 0 0 2px #e6e1e8;
+        box-sizing: border-box;
+        margin: 0;
+        font-weight: 500;
+        text-decoration: none;
+        vertical-align: baseline;
+        cursor: pointer;
+        //background-color: #f7f7f7;
+        border-width: 0;
+        border-radius: 3px;
+        display: inline;
+        box-sizing: border-box;
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: 1.6;
+        padding: 2px 8px 3px 8px;
+        color: #5f3992;
+        font-size: 0.95em;
+
+        &:hover {
+            margin-top: 6px;
+            color: #5f3992;
+            text-decoration: none;
+            background-color: transparent !important;
+            box-shadow: inset 0 0 0 3px #e6e1e8;
+            background-image: none;
+        }
+  }
+
+.linkify, .linkify a {
+    a {
+       @include small-button()
+    }
+}
+
+.small-button {
+    @include small-button()
+}
+
+iframe {
+    display: block;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 20px;
+    border: solid 5px #EEE;
+}
