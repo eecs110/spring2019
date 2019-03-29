@@ -172,7 +172,7 @@ def fun(dir, rootdir, counter):
         'filenames': file_metadata,
         'header': header,
         'ROOTDIR': rootdir,
-        'github_path': 'https://github.com/eecs110/winter2019/blob/master',
+        'github_path': 'https://github.com/eecs110/spring2019/blob/master',
         'num': counter,
         'title': title,
         'exclude': do_exclude,
