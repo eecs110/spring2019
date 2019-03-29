@@ -9,9 +9,7 @@ has_children: true
 permalink: /
 ---
 # Schedule
-> This schedule is subject to change (as needed). In addition, unless otherwise indicated:
-> * Homeworks and projects are always due on Tuesday at 11:59PM
-> * Tutorials are always due on Friday at 6:00PM
+> This schedule is subject to change (as needed). In addition, unless otherwise indicated, homework and projects are always due on Tuesday at 11:59PM.
 
 <table class="schedule">
     <thead>
@@ -28,62 +26,25 @@ permalink: /
                 Week 1
             </td>
             <td>
-                <strong>Mo Apr 1</strong><br>
-                TBD
+                <strong>Tu Apr 2</strong><br>
+                Introduction to programming with Python
             </td>
             <td></td>
         </tr>
         <tr class="done">
             <td></td>
             <td>
-                <strong>We Apr 3</strong><br>
-                TBD
+                <strong>Th Apr 4</strong><br>
+                Variables, expressions, and statements
             </td>
             <td></td>
-        </tr>
-        <tr class="done">
-            <td></td>
-            <td>
-                <strong>Fr Apr 5</strong><br>
-                Github
-            </td>
-            <td>
-                <span class="label label-default">Tutorial 1</span>
-            </td>
         </tr>
         <!-- WEEK #2 -->
         <tr class="done">
             <td>Week 2</td>
             <td>
-                <strong>Mo Apr 8</strong><br>
-                TBD
-            </td>
-            <td></td>
-        </tr>
-        <tr class="done">
-            <td></td>
-            <td>
-                <strong>We Apr 10</strong><br>
-                TBD
-            </td>
-            <td></td>
-        </tr>
-        <tr class="done">
-            <td></td>
-            <td>
-                <strong>We Apr 12</strong><br>
-                TBD
-            </td>
-            <td>   
-                <span class="label label-default">Tutorial 2</span>
-            </td>
-        </tr>
-        <!-- WEEK #3 -->
-        <tr class="done">
-            <td>Week 3</td>
-            <td>
-                <strong>Mo Apr 15</strong><br>
-                TBD
+                <strong>Tu Apr 9</strong><br>
+                Built-in functions and modules
             </td>
             <td>
                 <span class="label label-green">Homework 1</span>
@@ -92,27 +53,17 @@ permalink: /
         <tr class="done">
             <td></td>
             <td>
-                <strong>We Apr 17</strong><br>
-                TBD
+                <strong>Th Apr 11</strong><br>
+                Making your own functions
             </td>
             <td></td>
         </tr>
+        <!-- WEEK #3 -->
         <tr class="done">
-            <td></td>
+            <td>Week 3</td>
             <td>
-                <strong>Fr Apr 19</strong><br>
-                TBD
-            </td>
-            <td>
-                <span class="label label-default">Tutorial 3 </span>
-            </td>
-        </tr>
-        <!-- WEEK #4 -->
-        <tr class="done">
-            <td>Week 4</td>
-            <td>
-                <strong>Mo Apr 22</strong><br>
-                TBD
+                <strong>Tu Apr 16</strong><br>
+                Conditional execution and while loops
             </td>
             <td>
                 <span class="label label-green">Homework 2</span>
@@ -121,25 +72,17 @@ permalink: /
         <tr class="done">
             <td></td>
             <td>
-                <strong>We Apr 24</strong><br>
-                TBD
+                <strong>Th Apr 18</strong><br>
+                Loops and iteration
             </td>
             <td></td>
         </tr>
+        <!-- WEEK #4 -->
         <tr class="done">
-            <td></td>
+            <td>Week 4</td>
             <td>
-                <strong>Fr Apr 26</strong><br>
-                TBD
-            </td>
-            <td><span class="label label-default">Tutorial 4</span></td>
-        </tr>
-        <!-- WEEK #5 -->
-        <tr class="done">
-            <td>Week 5</td>
-            <td>
-                <strong>Mo Apr 29</strong><br>
-                TBD
+                <strong>Tu Apr 23</strong><br>
+                Iteration and looping algorithms
             </td>
             <td>
                 <span class="label label-green">Homework 3</span>
@@ -148,16 +91,27 @@ permalink: /
         <tr class="done">
             <td></td>
             <td>
-                <strong>We May 1</strong><br>
-                TBD
+                <strong>Th Apr 25</strong><br>
+                User Input and Events
             </td>
             <td></td>
+        </tr>
+        <!-- WEEK #5 -->
+        <tr class="done">
+            <td>Week 5</td>
+            <td>
+                <strong>Tu Apr 30</strong><br>
+                Exam review
+            </td>
+            <td>
+                <span class="label label-green">Homework 4</span>
+            </td>
         </tr>
         <tr class="done">
             <td></td>
             <td>
-                <strong>Fr May 3</strong><br>
-                TBD
+                <strong>Th May 2</strong><br>
+                Exam
             </td>
             <td></td>
         </tr>
@@ -165,8 +119,8 @@ permalink: /
         <tr>
             <td>Week 6</td>
             <td>
-                <strong>Mo May 6</strong><br>
-                TBD
+                <strong>Tu May 7</strong><br>
+                Data: Working with files
             </td>
             <td>
             </td>
@@ -174,53 +128,17 @@ permalink: /
         <tr>
             <td></td>
             <td>
-                <strong>We May 8</strong><br>
-                TBD
+                <strong>Th May 9</strong><br>
+                Data: Dictionaries and lists
             </td>
             <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>
-                <strong>Fr May 10</strong><br>
-                TBD
-            </td>
-            <td><span class="label label-default">Tutorial 5</span></td>
         </tr>
         <!-- WEEK #7 -->
         <tr>
             <td>Week 7</td>
             <td>
-                <strong>Mo May 13</strong><br>
-                TBD<br>
-            </td>
-            <td>
-                <span class="label label-green">Homework 4</span>
-            </td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>
-                <strong>We May 15</strong><br>
-                TBD
-            </td>
-            <td>
-            </td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>
-                <strong>Fr May 17</strong><br>
-                TBD
-            </td>
-            <td><span class="label label-default">Tutorial 6</span></td>
-        </tr>
-        <!-- WEEK #8 -->
-        <tr>
-            <td>Week 8</td>
-            <td>
-                <strong>Mo May 20</strong><br>
-                TBD
+                <strong>Tu May 14</strong><br>
+                Data: Dictionaries and lists continued<br>
             </td>
             <td>
                 <span class="label label-purple">Project 1</span>
@@ -229,26 +147,18 @@ permalink: /
         <tr>
             <td></td>
             <td>
-                <strong>We May 22</strong><br>
-                TBD
+                <strong>Th May 16</strong><br>
+                Logic and binary
             </td>
             <td>
             </td>
         </tr>
+        <!-- WEEK #8 -->
         <tr>
-            <td></td>
+            <td>Week 8</td>
             <td>
-                <strong>Fr May 24</strong><br>
-                TBD
-            </td>
-            <td><span class="label label-default">Tutorial 7</span></td>
-        </tr>
-        <!-- WEEK #9 -->
-        <tr>
-            <td>Week 9</td>
-            <td>
-                <strong>Mo May 27</strong><br>
-                Memorial Day (No Class)
+                <strong>Tu May 21</strong><br>
+                Cloud-based data services 1
             </td>
             <td>
                 <span class="label label-green">Homework 5</span>
@@ -257,45 +167,58 @@ permalink: /
         <tr>
             <td></td>
             <td>
-                <strong>We May 29</strong><br>
-                TBD
+                <strong>Th May 23</strong><br>
+                Cloud-based data services 2
             </td>
-            <td></td>
+            <td>
+            </td>
+        </tr>
+        <!-- WEEK #9 -->
+        <tr>
+            <td>Week 9</td>
+            <td>
+                <strong>Tu May 28</strong><br>
+                Outputting data: tables
+            </td>
+            <td>
+                <span class="label label-green">Homework 6</span>
+            </td>
         </tr>
         <tr>
             <td></td>
             <td>
-                <strong>Fr May 31</strong><br>
-                TBD
+                <strong>Th May 30</strong><br>
+                Outputting data: charts & maps
             </td>
-            <td><span class="label label-default">Tutorial 8</span></td>
+            <td></td>
         </tr>
         <!-- WEEK #10 -->
         <tr>
             <td>Week 10</td>
             <td>
-                <strong>Mo Jun 3</strong><br>
-                TBD
-            </td>
-            <td>
-                 <span class="label label-green">Homework 6</span>
-            </td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>
-                <strong>We Jun 5</strong><br>
-                TBD
+                <strong>Tu Jun 4</strong><br>
+                Exam Review
             </td>
             <td></td>
         </tr>
         <tr>
             <td></td>
             <td>
-                <strong>Fr Jun 7</strong><br>
-                TBD
+                <strong>Th Jun 6</strong><br>
+                Exam 2
             </td>
             <td></td>
+        </tr>
+        <!-- FINALS WEEK -->
+        <tr>
+            <td>Finals Week</td>
+            <td>
+                <strong>Tu Jun 11</strong><br>
+            </td>
+            <td>
+                <span class="label label-purple">Project 2</span>
+
+            </td>
         </tr>
     </tbody>
 </table>
