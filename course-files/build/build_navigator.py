@@ -141,12 +141,12 @@ def fun(dir, rootdir, counter):
         fname for fname in sorted(os.listdir(dir))
         if fname not in EXCLUDED
     ]
-    print(filenames, dirnames)
+    # print(filenames, dirnames)
     dirnames = [fname for fname in dirnames if fname not in filenames]
     filenames.sort()
-    print(dirnames)
+    # print(dirnames)
     dirnames.sort()
-    print(dirnames)
+    # print(dirnames)
     file_metadata = get_metadata(dir, filenames)
     dir_metadata = get_metadata(dir, dirnames)
 
@@ -179,7 +179,7 @@ def fun(dir, rootdir, counter):
         'is_root': is_root,
         'parent_dir': parent_dir
     }
-    print(kwargs)
+    # print(kwargs)
     print(Template(INDEX_TEMPLATE).render(**kwargs), file=f)
     f.close()
     for subdir in dirnames:

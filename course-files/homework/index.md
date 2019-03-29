@@ -34,8 +34,8 @@ nav_exclude: False
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="hw01">hw01</a></td>
-            <td align="right">3/29/2019 5:17 PM</td>
-            <td>128.0B</td>
+            <td align="right">3/29/2019 5:29 PM</td>
+            <td>160.0B</td>
             <td>&nbsp;</td>
         </tr>
         <tr class="click-to-preview">
@@ -45,8 +45,8 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw01.zip">hw01.zip</a>
             </td>
-            <td align="right">3/29/2019 5:29 PM</td>
-            <td>530.0B</td>
+            <td align="right">3/29/2019 5:41 PM</td>
+            <td>601.0B</td>
             <td>
             </td>
         </tr>
