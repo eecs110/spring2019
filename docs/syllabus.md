@@ -45,7 +45,7 @@ Office hours and tutorial location and times are posted on the course's [Google 
 
 ## Course Materials and Resources
 ### Free Online Books
-* [http://openbookproject.net/thinkcs/python/english3e/](http://openbookproject.net/thinkcs/python/english3e/)
+* [A Practical Introduction to Python Programming](https://www.brianheinold.net/python/A_Practical_Introduction_to_Python_Programming_Heinold.pdf)
 * [https://www.py4e.com/](https://www.py4e.com/)
 {: .prose}
 
@@ -92,7 +92,7 @@ We will not be using the final exam time for this class. Exam 2 will be on the l
 {: .prose}
 
 Homework will be approximately weekly. They are due at 11:59pm on the date specified.
-We will still accept late homework up to 48 hours after the original due date, but with a 30% penalty. Homework is graded pass / fail (either 0 points or 10 points). If you fail your first homework submission, you have **one week** to revise and resubmit to receive full credit. If you turn your homework late (within 48 hours of the deadline) you will be penalized 30%. If you resubmit after first turning in a late homework assignment, you can only receive a maximum of 7 points.
+We will still accept late homework up to 48 hours after the original due date, but with a 5 point penalty (~30%). Homework is graded pass / fail (either 0 points or 10 points). If you fail your first homework submission, you have **one week** to revise and resubmit to receive full credit. If you turn your homework late (within 48 hours of the deadline) you will be penalized 30%. If you resubmit after first turning in a late homework assignment, you can only receive a maximum of 10 points.
 {: .prose}
 
 In EXTREME circumstances (e.g, if you leave town for a funeral), you must contact your dean of students (like Joe Holtgreive) and have them contact me if they deem it necessary to give you an extension or make other accommodations. Please understand that we do this to make things fair for all students – I don’t want to be in charge of vetting individual students’ situations, and I don’t want students to have to tell me their personal troubles if they don't want to.
