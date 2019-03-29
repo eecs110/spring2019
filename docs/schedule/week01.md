@@ -11,19 +11,19 @@ permalink: /week-01
 ## I. Tuesday, April 2
 Introduction to programming with Python.
 ### Slides
-* [Slides 00: Intro to the Course](https://docs.google.com/presentation/d/1lFtVbEGrP8PoTZlK-q6SpYLN_B8MDNcN0pBJ_lc7Yd8/edit?usp=sharing)
+* [Slides 00: Intro to the Course](https://docs.google.com/presentation/d/1SHTEbdjPrZm5JLkB1qo614mFUXUP3ZudoGGSMnOUyQY/edit?usp=sharing)
 
 ### Code Samples
-[see course files](/spring2019/course-files/lectures/)
+[lecture_01.zip](/spring2019/course-files/lectures/lecture_01.zip)
 
 ### Assigned
-1. <a href="https://goo.gl/forms/315BPme8lNKYGval1">Questionnaire</a> (due end of class)
-2. Homework 1
+1. <a href="https://forms.gle/Td8b7dV1ki28xBuSA">Questionnaire</a> (due end of class)
+2. [Homework 1](/spring2019/course-files/homework/hw01/)
 
 ### Readings and Resources
-1. Python for Everyone: Why program?<br>
+1. Severance: Why program?<br>
 [videos](https://www.py4e.com/lessons/intro) | [textbook](https://www.py4e.com/html3/01-intro)
-2. [Way of the program](http://openbookproject.net/thinkcs/python/english3e/way_of_the_program.html)
+2. [Heinold: Chapter 1](https://www.brianheinold.net/python/A_Practical_Introduction_to_Python_Programming_Heinold.pdf)
 3. [Command Line Tutorial](https://tutorial.djangogirls.org/en/intro_to_command_line/) (for Windows and Mac)<br>
 Note: Windows users need to use the Anaconda prompt rather than the traditional DOS prompt.
 
@@ -38,6 +38,6 @@ Note: Windows users need to use the Anaconda prompt rather than the traditional 
 ### Readings and Resources
 1. [What is Python?](http://interactivepython.org/courselib/static/thinkcspy/GeneralIntro/ThePythonProgrammingLanguage.html)
 2. Variables, Expressions, and Statements
-    1. [How to think like a Computer Scientist](https://www.py4e.com/lessons/memory)
+    1. [How to think like a Computer Scientist](http://openbookproject.net/thinkcs/python/english3e/variables_expressions_statements.html)
     2. Python for Everybody<br>
-  [videos](http://openbookproject.net/thinkcs/python/english3e/variables_expressions_statements.html) | [textbook](https://www.py4e.com/html3/02-variables)
+  [videos](https://www.py4e.com/lessons/memory) | [textbook](https://www.py4e.com/html3/02-variables)

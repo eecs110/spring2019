@@ -17,5 +17,5 @@ permalink: /course-files/slides/
 # Slides
 
 |--|--|--|
-| **Week 1** | Mo, 04/01 | |
-|| We, 04/03 | |
+| **Week 1** | Tu, 4/02 | [Slides 00: Intro to the Course](https://docs.google.com/presentation/d/1SHTEbdjPrZm5JLkB1qo614mFUXUP3ZudoGGSMnOUyQY/edit?usp=sharing)|
+|| Th, 4/04 | |

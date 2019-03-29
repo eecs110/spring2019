@@ -45,14 +45,16 @@ Office hours and tutorial location and times are posted on the course's [Google 
 
 ## Course Materials and Resources
 ### Free Online Books
-* [A Practical Introduction to Python Programming](https://www.brianheinold.net/python/A_Practical_Introduction_to_Python_Programming_Heinold.pdf)
-* [https://www.py4e.com/](https://www.py4e.com/)
+* [A Practical Introduction to Python Programming](https://www.brianheinold.net/python/A_Practical_Introduction_to_Python_Programming_Heinold.pdf), by Brian Heinold
+* [Python for Everyone](https://www.py4e.com/), by Chuck Severance
+* [How to think like a Computer Scientist](http://openbookproject.net/thinkcs/python/english3e/), by Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers
 {: .prose}
 
 ### Software
 As this is a programming course, you will be using the free software programs listed below. This software will take about 3GB of space to install. Installing and configuring programming software can be a hassle, but it is part of the process of developing your working computing knowledge.  We will help you.
 {: .prose}
 * Python3
+* Anaconda
 * Visual Studio Code
 {: .prose}
 
