@@ -38,6 +38,15 @@ nav_exclude: False
             <td>160.0B</td>
             <td>&nbsp;</td>
         </tr>
+        <tr>
+            <td valign="top">
+                <i class="fa fa-folder"></i>
+            </td>
+            <td><a href="lectures">lectures</a></td>
+            <td align="right">3/30/2019 12:23 PM</td>
+            <td>160.0B</td>
+            <td>&nbsp;</td>
+        </tr>
         <tr class="click-to-preview">
             <td class="first-column">
                     <i class="far fa-file"></i>

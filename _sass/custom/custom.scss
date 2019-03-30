@@ -183,9 +183,9 @@ code, pre.highlight {
                 padding-left: 1.5em;
             }
         }
-        td:last-child {
-            min-width: 170px;
-        }
+        // td:last-child {
+        //     min-width: 170px;
+        // }
         &.schedule {
             td, th {
                 vertical-align: top;
@@ -193,10 +193,12 @@ code, pre.highlight {
             td:first-child {
                 text-align: left;
                 font-weight: 600;
-                max-width: 120px;
+            }
+            td:nth-child(3) {
+                min-width: 250px;
             }
             td:last-child {
-                width: 20px;
+                max-width: 140px;
             }
             th {
                 text-align: left;
