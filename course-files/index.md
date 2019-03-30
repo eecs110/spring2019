@@ -47,20 +47,6 @@ nav_exclude: False
             <td>224.0B</td>
             <td>&nbsp;</td>
         </tr>
-        <tr class="click-to-preview">
-            <td class="first-column">
-                    <i class="far fa-file"></i>
-            </td>
-            <td nowrap>
-                    <a href="slides">
-                        Slides
-                    </a>
-            </td>
-            <td align="right">3/29/2019 5:59 PM</td>
-            <td>615.0B</td>
-            <td>
-            </td>
-        </tr>
     </tbody>
 </table>
 
