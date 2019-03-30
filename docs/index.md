@@ -15,7 +15,7 @@ permalink: /
         <tr>
             <th>Week</th>
             <th>Lecture Materials</th>
-            <th>Readings</th>
+            <th>Readings & Resources</th>
             <th>Due</th>
         </tr>
     </thead>
@@ -108,7 +108,7 @@ permalink: /
             </td>
             <td>
                 <ol>
-                    <li>Severance, Ch3<br>
+                    <li>Severance, Ch 3<br>
                     <a href="https://www.py4e.com/lessons/logic" target="_blank">videos</a> | <a href="https://www.py4e.com/html3/03-conditional" target="_blank">textbook</a></li>
                     <li><a href="http://openbookproject.net/thinkcs/python/english3e/conditionals.html" target="_blank">ThinkCS, Ch5</a></li>
                 </ol>
@@ -125,7 +125,7 @@ permalink: /
             </td>
             <td>
                 <ol>
-                    <li>Severance, Ch5<br>
+                    <li>Severance, Ch 5<br>
                     <a href="https://www.py4e.com/lessons/loops" target="_blank">videos</a> | <a href="https://www.py4e.com/html3/05-iterations" target="_blank">textbook</a></li>
                     <li><a href="http://openbookproject.net/thinkcs/python/english3e/iteration.html" target="_blank">ThinkCS, Ch7</a></li>
                 </ol>
@@ -203,11 +203,11 @@ permalink: /
                 </ul>
             </td>
             <td>
-                Revisiting the readings on conditionals:
                 <ol>
-                    <li>Severance, Ch3<br>
-                    <a href="https://www.py4e.com/lessons/logic" target="_blank">videos</a> | <a href="https://www.py4e.com/html3/03-conditional" target="_blank">textbook</a></li>
-                    <li><a href="http://openbookproject.net/thinkcs/python/english3e/conditionals.html" target="_blank">ThinkCS, Ch5</a></li>
+                    <li>Revisiting the readings on conditionals (from week 3)</li>
+                    <li>
+                        <a href="https://www.brianheinold.net/python/A_Practical_Introduction_to_Python_Programming_Heinold.pdf" target="_blank">Heinold, Ch 10.2-10.4</a>
+                    </li>
                 </ol>
             </td>
             <td></td>
@@ -216,12 +216,16 @@ permalink: /
             <td></td>
             <td>
                 <strong>Th May 9</strong><br>
-                Data: Working with files
+                Data: Strings and files
             </td>
             <td>
                 <ol>
-                    <li>Python for Everyone: Files<br>
-                    <a href="https://www.py4e.com/lessons/files">videos</a> | <a href="https://www.py4e.com/html3/07-files">textbook</a></li>
+                    <li>Severance, Ch 6: Strings<br>
+                        <a href="https://www.py4e.com/lessons/strings" target="_blank">videos</a> | <a href="https://www.py4e.com/html3/06-strings" target="_blank">textbook</a>
+                    </li>
+                    <li>Severance, Ch 7: Files<br>
+                        <a href="https://www.py4e.com/lessons/files" target="_blank">videos</a> | <a href="https://www.py4e.com/html3/07-files" target="_blank">textbook</a>
+                    </li>
                 </ol>
             </td>
             <td></td>
@@ -235,7 +239,7 @@ permalink: /
             </td>
             <td>
                 <ol>
-                    <li>Python for Everyone: Dictionaries<br>
+                    <li>Severance, Ch 9: Dictionaries<br>
                     <a href="https://www.py4e.com/lessons/dictionary">videos</a> | <a href="https://www.py4e.com/html3/09-dictionaries">textbook</a></li>
                 </ol>
             </td>
@@ -247,9 +251,15 @@ permalink: /
             <td></td>
             <td>
                 <strong>Th May 16</strong><br>
-                Data: Dictionaries and lists continued<br>
+                Data: Dictionary algorithms<br>
             </td>
-            <td></td>
+            <td>
+                <ol>
+                    <li>
+                        <a href="https://www.brianheinold.net/python/A_Practical_Introduction_to_Python_Programming_Heinold.pdf" target="_blank">Heinold, Ch 11</a>
+                    </li>
+                </ol>
+            </td>
             <td></td>
         </tr>
         <!-- WEEK #8 -->
@@ -257,9 +267,13 @@ permalink: /
             <td>Week 8</td>
             <td>
                 <strong>Tu May 21</strong><br>
-                Cloud-based data services 1
+                Intro to cloud-based data services
             </td>
-            <td></td>
+            <td>
+                <ol>
+                    <li>Severance, Ch 13: Web Services<br>
+                    <a href="https://www.py4e.com/lessons/servces">videos</a> | <a href="https://www.py4e.com/html3/13-web">textbook</a></li>
+                </ol></td>
             <td>
                 <span class="label label-default">Homework 5</span>
             </td>
@@ -268,9 +282,9 @@ permalink: /
             <td></td>
             <td>
                 <strong>Th May 23</strong><br>
-                Cloud-based data services 2
+                Filtering, grouping, and presenting data
             </td>
-            <td></td>
+            <td>TBD</td>
             <td></td>
         </tr>
         <!-- WEEK #9 -->
@@ -278,9 +292,9 @@ permalink: /
             <td>Week 9</td>
             <td>
                 <strong>Tu May 28</strong><br>
-                Outputting data: tables
+                Intro to Pandas & Matplotlib
             </td>
-            <td></td>
+            <td>TBD</td>
             <td>
                 <span class="label label-default">Homework 6</span>
             </td>
@@ -289,9 +303,9 @@ permalink: /
             <td></td>
             <td>
                 <strong>Th May 30</strong><br>
-                Outputting data: charts & maps
+                Intro to the HTML file format: for outputting data presentations
             </td>
-            <td></td>
+            <td>TBD</td>
             <td></td>
         </tr>
         <!-- WEEK #10 -->
