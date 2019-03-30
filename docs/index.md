@@ -32,11 +32,11 @@ permalink: /
             </td>
             <td>
                 <ol>
-                    <li>Severance, Ch1<br>
+                    <li>Severance, Ch 1: Introduction<br>
                         <a href="https://www.py4e.com/lessons/intro" target="_blank">videos</a> | <a href="https://www.py4e.com/html3/01-intro" target="_blank">textbook</a>
                     </li>
                     <li>
-                        <a href="https://www.brianheinold.net/python/A_Practical_Introduction_to_Python_Programming_Heinold.pdf" target="_blank">Heinold, Ch1</a>
+                        <a href="https://www.brianheinold.net/python/A_Practical_Introduction_to_Python_Programming_Heinold.pdf" target="_blank">Heinold, Ch 1: Introductory Samples</a>
                     </li>
                 </ol>
             </td>
@@ -51,11 +51,11 @@ permalink: /
             </td> 
             <td>
                 <ol>
-                    <li>Severance, Ch2<br>
+                    <li>Severance, Ch 2: Variables<br>
                         <a href="https://www.py4e.com/lessons/memory" target="_blank">videos</a> | <a href="https://www.py4e.com/html3/02-variables" target="_blank">textbook</a>
                     </li>
                     <li>
-                        <a href="http://openbookproject.net/thinkcs/python/english3e/variables_expressions_statements.html" target="_blank">ThinkCS, Ch2</a>
+                        <a href="http://openbookproject.net/thinkcs/python/english3e/variables_expressions_statements.html" target="_blank">ThinkCS, Ch 2: Variables</a>
                     </li>
                 </ol>
             </td>
@@ -66,15 +66,16 @@ permalink: /
             <td>Week 2</td>
             <td>
                 <strong>Tu Apr 9</strong><br>
-                Built-in functions and modules
+                Functions and modules
             </td>
             <td>
                 <ol>
-                    <li>Severance, Ch4: Functions<br>
+                    <li>Severance, Ch 4: Functions<br>
                     <a href="https://www.py4e.com/lessons/functions" target="_blank">videos</a> | <a href="https://www.py4e.com/html3/04-functions" target="_blank">textbook</a><br></li>
-                    <li><a href="http://openbookproject.net/thinkcs/python/english3e/functions.html" target="_blank">ThinkCS, Ch4</a></li>
-                    <li><a href="http://openbookproject.net/thinkcs/python/english3e/modules.html" target="_blank">ThinkCS, Ch12</a><br>
+                    <li><a href="http://openbookproject.net/thinkcs/python/english3e/functions.html" target="_blank">ThinkCS, Ch 4: Functions</a></li>
+                    <li><a href="http://openbookproject.net/thinkcs/python/english3e/modules.html" target="_blank">ThinkCS, Ch 12: Modules</a><br>
                     Skim sections 12.1 through 12.4.</li>
+                    <li><a href="https://www.pythonforbeginners.com/basics/how-to-use-pip-and-pypi" target="_blank">What is PIP?</a></li>
                 </ol>
             </td>
             <td>
@@ -85,12 +86,15 @@ permalink: /
             <td></td>
             <td>
                 <strong>Th Apr 11</strong><br>
-                Making your own functions
+                Functions continued; lists and tuples (sequences)
             </td>
             <td>
                 <ol>
-                    <li><a href="https://www.pythonforbeginners.com/basics/how-to-use-pip-and-pypi" target="_blank">What is PIP?</a></li>
                     <li>Review Tuesday's (4/9) readings</li>
+                    <li>Python for Everyone: Lists <a href="#[1]"><sup>[1]</sup></a><br>
+                    <a href="">videos</a> | <a href="https://www.py4e.com/html3/08-lists">textbook</a></li>
+                    <li>Python for Everyone: Tuples<br>
+                    <a href="https://www.py4e.com/lessons/tuples">videos</a> | <a href="https://www.py4e.com/html3/10-tuples">textbook</a></li>
                 </ol>
             </td>
             <td></td>
@@ -135,7 +139,14 @@ permalink: /
                 <strong>Tu Apr 23</strong><br>
                 Iteration and looping algorithms
             </td>
-            <td></td>
+            <td>
+                <ol>
+                    <li>
+                        <a href="https://www.brianheinold.net/python/A_Practical_Introduction_to_Python_Programming_Heinold.pdf" target="_blank">Heinold, Ch 5</a><br>
+                        More looping algorithm practice
+                    </li>
+                </ol>
+            </td>
             <td>
                 <span class="label label-default">Homework 3</span>
             </td>
@@ -144,9 +155,18 @@ permalink: /
             <td></td>
             <td>
                 <strong>Th Apr 25</strong><br>
-                User Input and Events
+                User Input and Events<a href="#[2]"><sup>[2]</sup></a>
             </td>
-            <td></td>
+            <td>
+                <ol>
+                    <li>
+                        <a href="https://www.brianheinold.net/python/A_Practical_Introduction_to_Python_Programming_Heinold.pdf" target="_blank">Heinold, Ch16.8-9</a>
+                    </li>
+                    <li>
+                        <a href="http://effbot.org/tkinterbook/tkinter-index.htm#class-reference" target="_blank">Tkinter Documentation</a> (skim)
+                    </li>
+                </ol>
+            </td>
             <td></td>
         </tr>
         <!-- WEEK #5 -->
@@ -154,7 +174,7 @@ permalink: /
             <td>Week 5</td>
             <td>
                 <strong>Tu Apr 30</strong><br>
-                Exam review
+                Exam 1 review
             </td>
             <td></td>
             <td>
@@ -175,18 +195,35 @@ permalink: /
             <td>Week 6</td>
             <td>
                 <strong>Tu May 7</strong><br>
-                Data: Working with files
+                Logic Continued
+                <ul>
+                    <li>Binary</li>
+                    <li>And, or, and not</li>
+                    <li>Error handling</li>
+                </ul>
             </td>
-            <td></td>
+            <td>
+                Revisiting the readings on conditionals:
+                <ol>
+                    <li>Severance, Ch3<br>
+                    <a href="https://www.py4e.com/lessons/logic" target="_blank">videos</a> | <a href="https://www.py4e.com/html3/03-conditional" target="_blank">textbook</a></li>
+                    <li><a href="http://openbookproject.net/thinkcs/python/english3e/conditionals.html" target="_blank">ThinkCS, Ch5</a></li>
+                </ol>
+            </td>
             <td></td>
         </tr>
         <tr>
             <td></td>
             <td>
                 <strong>Th May 9</strong><br>
-                Data: Dictionaries and lists
+                Data: Working with files
             </td>
-            <td></td>
+            <td>
+                <ol>
+                    <li>Python for Everyone: Files<br>
+                    <a href="https://www.py4e.com/lessons/files">videos</a> | <a href="https://www.py4e.com/html3/07-files">textbook</a></li>
+                </ol>
+            </td>
             <td></td>
         </tr>
         <!-- WEEK #7 -->
@@ -194,9 +231,14 @@ permalink: /
             <td>Week 7</td>
             <td>
                 <strong>Tu May 14</strong><br>
-                Data: Dictionaries and lists continued<br>
+                Data: Dictionaries and lists
             </td>
-            <td></td>
+            <td>
+                <ol>
+                    <li>Python for Everyone: Dictionaries<br>
+                    <a href="https://www.py4e.com/lessons/dictionary">videos</a> | <a href="https://www.py4e.com/html3/09-dictionaries">textbook</a></li>
+                </ol>
+            </td>
             <td>
                 <span class="label label-purple">Project 1</span>
             </td>
@@ -205,7 +247,7 @@ permalink: /
             <td></td>
             <td>
                 <strong>Th May 16</strong><br>
-                Logic and binary
+                Data: Dictionaries and lists continued<br>
             </td>
             <td></td>
             <td></td>
@@ -284,3 +326,10 @@ permalink: /
         </tr>
     </tbody>
 </table>
+
+## Notes
+<a id="[1]"></a>
+[1] We will be covering loops in week 3, but for now, just focus on what lists and tuples are and how they can store and organize data.
+
+<a id="[2]"></a>
+[2] User input and events won't be on the exam, but this information will be useful for Project 1.
