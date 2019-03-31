@@ -28,7 +28,7 @@ permalink: /
             <td>
                 <strong>Tu Apr 2</strong><br>
                 Introduction to programming with Python<br>
-                <a href="https://docs.google.com/presentation/d/1SHTEbdjPrZm5JLkB1qo614mFUXUP3ZudoGGSMnOUyQY/edit#slide=id.p" target="_blank">slides</a> | <a href="/spring2019/course-files/lectures/lecture_01.zip">lecture files</a>
+                <!-- <a href="https://docs.google.com/presentation/d/1SHTEbdjPrZm5JLkB1qo614mFUXUP3ZudoGGSMnOUyQY/edit#slide=id.p" target="_blank">slides</a> | <a href="/spring2019/course-files/lectures/lecture_01.zip">lecture files</a> -->
             </td>
             <td>
                 <ol>
@@ -47,7 +47,7 @@ permalink: /
             <td>
                 <strong>Th Apr 4</strong><br>
                 Variables, operators, and data types<br>
-                slides | <a href="/spring2019/course-files/lectures/lecture_02.zip">lecture files</a>
+                <!-- slides | <a href="/spring2019/course-files/lectures/lecture_02.zip">lecture files</a> -->
             </td> 
             <td>
                 <ol>
@@ -185,10 +185,10 @@ permalink: /
             <td></td>
             <td>
                 <strong>Th May 2</strong><br>
-                <span class="label">Exam 1</span>
+                Exam 1
             </td>
             <td></td>
-            <td></td>
+            <td><span class="label">Exam 1</span></td>
         </tr>
         <!-- WEEK #6 -->
         <tr>
@@ -325,7 +325,7 @@ permalink: /
                 Exam 2
             </td>
             <td></td>
-            <td></td>
+            <td><span class="label">Exam 2</span></td>
         </tr>
         <!-- FINALS WEEK -->
         <tr>

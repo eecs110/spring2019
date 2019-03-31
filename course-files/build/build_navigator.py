@@ -160,7 +160,7 @@ def fun(dir, rootdir, counter):
     title = title.title()
     do_exclude = header not in [
         'course-files/',
-        'course-files/lectures/',
+        #'course-files/lectures/',
         'course-files/homework/',
         'course-files/tutorials/',
         'course-files/projects/',

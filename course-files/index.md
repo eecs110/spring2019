@@ -38,15 +38,6 @@ nav_exclude: False
             <td>160.0B</td>
             <td>&nbsp;</td>
         </tr>
-        <tr>
-            <td valign="top">
-                <i class="fa fa-folder"></i>
-            </td>
-            <td><a href="lectures">lectures</a></td>
-            <td align="right">3/30/2019 12:37 PM</td>
-            <td>224.0B</td>
-            <td>&nbsp;</td>
-        </tr>
     </tbody>
 </table>
 
