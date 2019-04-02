@@ -90,10 +90,10 @@ Office hours and tutorial location and times are posted on the course's [Google 
 
 Your course grade is calculated based on 400 points as follows:
 
-| **2 Exams** | 2 x 80 Points | 160 Points | 40% |
-| **2 Projects** | 2 x 75 | 150 Points | 30% |
-| **6 Homework Assignments** | 6 x 15 | 90 Points | 30% |
-| | | **400 Points** | **100%** |
+| **2 Exams** | 2 x 45 Points | 90 Points | 45% |
+| **2 Projects** | 2 x 40 Points | 80 Points | 40% |
+| **6 Homeworks** | 6 x 5 Points | 30 Points | 15% |
+| | | **200 Points** | **100%** |
 
 Final grades are assigned on a fixed scale: 93-100 is an A, 90-92.99 is an A-, 87-89.99 is a B+, etc. Final course grades will not be rounded or curved. We will not be using the final exam time for this class. Exam 2 will be on the last day of class (Thursday, June 6). If you plan to leave town during or before finals week, it is your responsibility to make sure that you can submit Project 2 on time to Canvas (that is, be sure that you will have a stable internet connection), by June 11 @ 11:59PM.
 {: .prose}
@@ -101,16 +101,16 @@ Final grades are assigned on a fixed scale: 93-100 is an A, 90-92.99 is an A-, 8
 ### Homework Grading
 
 Homework will be approximately weekly. They are due at 11:59pm on the date specified.
-We will still accept late homework up to 48 hours after the original due date, but with a 5 point penalty (~30%). Homework is graded on the following scale:
+We will still accept late homework up to 48 hours after the original due date, but with a 1.5 point penalty (30%). Homework is graded on the following scale:
 {: .prose}
 
 |--|--|
-| **No submission** | 0 Points | No effort made |
-| **Check minus** | 5 Points | Some effort made, but significant features are missing or not working |
-| **Check** | 10 Points | Mostly working, but some errors or issues were found |
-| **Check Plus**| 15 Points | Working exactly as it should |
+| **No submission** | 0 Points | Little to no understanding/effort demonstrated |
+| **Check minus** | 3 Points | Some effort made, but significant features are missing or not working |
+| **Check** | 4 Points | Mostly working, but some errors or issues were found |
+| **Check Plus**| 5 Points | Working exactly as it should |
 
-If you would like to resubmit your homework, you have **one week** to revise and resubmit to (potentially) receive full credit. If you turn your homework late (within 48 hours of the deadline) you will be penalized 30%. If you resubmit after first turning in a late homework assignment, you can only receive a maximum of 10/15 points.
+If you would like to resubmit your homework, you have **one week** to revise and resubmit to (potentially) receive full credit. If you turn your homework late (within 48 hours of the deadline) you will be penalized 30%. If you resubmit after first turning in a late homework assignment, you can only receive a maximum of 3.5/5 points.
 
 In EXTREME circumstances (e.g, if you leave town for a funeral), you must contact your dean of students (like Joe Holtgreive) and have them contact me if they deem it necessary to give you an extension or make other accommodations. Please understand that we do this to make things fair for all students – I don’t want to be in charge of vetting individual students’ situations, and I don’t want students to have to tell me their personal troubles if they don't want to.
 {: .prose}

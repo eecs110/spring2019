@@ -28,7 +28,7 @@ permalink: /
             <td>
                 <strong>Tu Apr 2</strong><br>
                 Introduction to programming with Python<br>
-                <!-- <a href="https://docs.google.com/presentation/d/1SHTEbdjPrZm5JLkB1qo614mFUXUP3ZudoGGSMnOUyQY/edit#slide=id.p" target="_blank">slides</a> | <a href="/spring2019/course-files/lectures/lecture_01.zip">lecture files</a> -->
+                <a href="https://docs.google.com/presentation/d/1SHTEbdjPrZm5JLkB1qo614mFUXUP3ZudoGGSMnOUyQY/edit#slide=id.p" target="_blank">slides 1</a> | <a href="https://docs.google.com/presentation/d/1GIHZ_cqbZ-9cH8mc5i_M8I8DFnS1yC3dh29Ll5K6aFw/edit?usp=sharing" target="_blank">slides 2</a>
             </td>
             <td>
                 <ol>
@@ -46,7 +46,8 @@ permalink: /
             <td></td>
             <td>
                 <strong>Th Apr 4</strong><br>
-                Variables, operators, and data types<br>
+                - Variables, operators, and data types<br>
+                - Installing Anaconda + VS Code
                 <!-- slides | <a href="/spring2019/course-files/lectures/lecture_02.zip">lecture files</a> -->
             </td> 
             <td>
