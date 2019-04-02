@@ -23,7 +23,7 @@ permalink: /syllabus/
 This course is an introduction to computer programming using Python, and assumes no prior programming knowledge. The intent of the course is twofold. First, we want to give you a sense of the kinds of problem-solving and creative pursuits that programming can support. Programming can be many different things — a representational medium, a tool for thinking about problems, a way of amplifying and/or communicating ideas, a means of performing complex calculations over massive datasets, and so forth. Most people who write computer programs are not computer scientists, but rather people who occupy a range of professions (journalists, geographers, sociologists, scientists, artists, musicians, entrepreneurs, researchers, etc.), and who use various programming languages to accomplish diverse and specialized goals. Moreover, as data and computing increasingly mediate modern life, knowing a bit about the mechanisms (and risks!) that underlie these systems is a valuable modern literacy that is likely to serve you well.
 {: .prose}
 
-A second goal of the course is to introduce you to the fundamental constructs of computer programming, and some skills and strategies for helping you apply these low-level constructs in creative and useful ways. Towards this end, there will be quite a few drills and practice problems to get you familiar with ‘the basics.’ You need to dedicate enough time to practicing the basics: the fun, creative parts of programming are only possible when you understand the building blocks; and understanding comes from an active, consistent, and iterative engagement with new ideas. Taking this course means committing — for 10 weeks — to attending lectures and labs, turning in assignments / projects, doing (lots of) practice problems, and most importantly, persevering when things get difficult and asking questions. We have an excellent staff of teaching assistants and peer mentors who are here just for you and your questions and ideas. With your consistent and active participation in your own learning, we can guide you through the material so that you can become a proficient programmer. Welcome to the course!
+A second goal of the course is to introduce you to the fundamental constructs of computer programming, and some skills and strategies for helping you apply these low-level constructs in creative and useful ways. Towards this end, there will be quite a few drills and practice problems to get you familiar with ‘the basics.’ You need to dedicate enough time to practicing the basics: the fun, creative parts of programming are only possible when you understand the building blocks; and understanding comes from an active, consistent, and iterative engagement with new ideas. Taking this course means committing — for 10 weeks — to attending lectures and office hours, turning in assignments / projects, doing (lots of) practice problems, and most importantly, persevering when things get difficult and asking questions. We have an excellent staff of teaching assistants and peer mentors who are here just for you and your questions and ideas. With your consistent and active participation in your own learning, we can guide you through the material so that you can become a proficient programmer. Welcome to the course!
 {: .prose}
 
 ## Course Staff
@@ -83,7 +83,7 @@ For any other issues that you think are not appropriate for the peer mentors or 
 
 ## Office Hours
 
-Office hours and tutorial location and times are posted on the course's [Google Calendar](https://calendar.google.com/calendar?cid=dDhpZjBqNG4zcDZrcTk3a29rM2ozbHJiaWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ).
+Office hours and locations are posted on the course's [Google Calendar](https://calendar.google.com/calendar?cid=dDhpZjBqNG4zcDZrcTk3a29rM2ozbHJiaWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ).
 {: .prose}
 
 ## Grading
@@ -110,7 +110,7 @@ We will still accept late homework up to 48 hours after the original due date, b
 | **Check** | 4 Points | Mostly working, but some errors or issues were found |
 | **Check Plus**| 5 Points | Working exactly as it should |
 
-If you would like to resubmit your homework, you have **one week** to revise and resubmit to (potentially) receive full credit. If you turn your homework late (within 48 hours of the deadline) you will be penalized 30%. If you resubmit after first turning in a late homework assignment, you can only receive a maximum of 3.5/5 points.
+If you would like to re-submit your homework, you have **one week** to revise and re-submit to (potentially) receive full credit. If you turn your homework late (within 48 hours of the deadline) you will be penalized 30%. If you re-submit after first turning in a late homework assignment, you can only receive a maximum of 3.5/5 points. If you did not turn anything in (within 48 hours of the due date), you may not re-submit.
 
 In EXTREME circumstances (e.g, if you leave town for a funeral), you must contact your dean of students (like Joe Holtgreive) and have them contact me if they deem it necessary to give you an extension or make other accommodations. Please understand that we do this to make things fair for all students – I don’t want to be in charge of vetting individual students’ situations, and I don’t want students to have to tell me their personal troubles if they don't want to.
 {: .prose}
