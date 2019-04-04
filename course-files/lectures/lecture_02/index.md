@@ -45,20 +45,6 @@ nav_exclude: True
             <td>384.0B</td>
             <td>&nbsp;</td>
         </tr>
-        <tr class="click-to-preview">
-            <td class="first-column">
-                    <i class="far fa-file"></i>
-            </td>
-            <td nowrap>
-                    <a href="README">
-                        Readme
-                    </a>
-            </td>
-            <td align="right">3/30/2019 12:37 PM</td>
-            <td>284.0B</td>
-            <td>
-            </td>
-        </tr>
     </tbody>
 </table>
 
