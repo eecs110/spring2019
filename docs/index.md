@@ -47,8 +47,10 @@ permalink: /
             <td>
                 <strong>Th Apr 4</strong><br>
                 - Variables, operators, and data types<br>
-                - Installing Anaconda + VS Code
-                <!-- slides | <a href="/spring2019/course-files/lectures/lecture_02.zip">lecture files</a> -->
+                - Installing Anaconda + VS Code<br>
+                <a href="https://docs.google.com/presentation/d/15IRKSoXFwmOode19QXMdR0a2FVeiPot5kV8w6SozI_E/edit?usp=sharing" target="_blank">slides</a> |
+                <a href="https://docs.google.com/document/d/1Oqj7O-RpuoccVEDQMslvfCmyjAs4I_0yZvgQyncNm_4/edit" target="_blank">python installation</a>
+                
             </td> 
             <td>
                 <ol>
