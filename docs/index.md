@@ -69,7 +69,9 @@ permalink: /
             <td>Week 2</td>
             <td>
                 <strong>Tu Apr 9</strong><br>
-                Functions and modules
+                Functions and modules<br>
+                <a href="https://docs.google.com/presentation/d/1cyrkYKL32cxwLPPaFr8uFi2y8ya-clzLJ-SU87okraY/edit?usp=sharing" target="_blank">slides</a> |
+                <a href="course-files/lectures/lecture_03.zip">lecture files</a>
             </td>
             <td>
                 <ol>
@@ -117,7 +119,7 @@ permalink: /
                 </ol>
             </td>
             <td>
-                <span class="label label-default">Homework 2</span>
+                <a class="label label-green" href="/spring2019/course-files/homework/hw02/README">Homework 2 <i class="fas fa-link"></i></a>
             </td>
         </tr>
         <tr class="done">
