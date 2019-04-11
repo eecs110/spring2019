@@ -20,7 +20,7 @@ canvas.pack()
 ########################
 # FUNCTION DEFINITIONS #
 ########################
-def make_oval(canvas: Canvas, center: tuple, radius_x: int, radius_y: int, fill: str='hotpink'):
+def make_oval(canvas: Canvas, center: tuple, radius_x: float, radius_y: float, fill: str='hotpink'):
     '''
     Draws an oval to the canvas, centered at the given center, and with the given radius.
     
@@ -40,7 +40,7 @@ def make_oval(canvas: Canvas, center: tuple, radius_x: int, radius_y: int, fill:
         does not return a value.
     '''
     # Exercise 1: currently, this function creates a hard-coded oval with a top-left
-    # coordinate of (200, 100), and a bottom-right coordinate of (200, 150). Your job is 
+    # coordinate of (100, 100), and a bottom-right coordinate of (200, 150). Your job is 
     # to modify the code so that the top-left (x, y) and bottom-right (x, y) coordinates 
     # are calculated based on the radius_x, radius_y and center point specified by the arguments; 
     # and that the fill color is  determined by the fill argument.

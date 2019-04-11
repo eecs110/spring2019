@@ -91,7 +91,9 @@ permalink: /
             <td></td>
             <td>
                 <strong>Th Apr 11</strong><br>
-                Functions continued; lists and tuples (sequences)
+                Functions continued; lists and tuples (sequences)<br>
+                <a href="https://docs.google.com/presentation/d/1_8QT2f3csPl0-boodGn97SdanoswH3HQrBTp2B50P48/edit?usp=sharing" target="_blank">slides</a> |
+                <a href="course-files/lectures/lecture_04.zip">lecture files</a>
             </td>
             <td>
                 <ol>

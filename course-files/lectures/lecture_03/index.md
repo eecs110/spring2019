@@ -34,7 +34,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="01_operator_examples.py">01_operator_examples.py</a>
             </td>
-            <td align="right">4/8/2019 9:52 PM</td>
+            <td align="right">4/9/2019 2:23 PM</td>
             <td>456.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_03/01_operator_examples.py"

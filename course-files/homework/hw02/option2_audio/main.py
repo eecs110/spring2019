@@ -38,8 +38,8 @@ def drum_4_beats(tempo: float, sound_sample: psonic.Sample=psonic.DRUM_HEAVY_KIC
         sound_sample(psonic.Sample, optional): the sound sample to be used as your beat 
             (see spreadsheet for a list of available samples)
     Returns: 
-        Nothing. This function's job is to output something to your speaker. It
-        does not return a value.
+        Nothing. This function's job is to output something to your 
+            speaker. It does not return a value.
     '''
     # Exercise 2: update the hard coded drum sample and sleep time so that it honors the 
     # tempo and sound_sample that is specified by the arguments. Currently, everything is
