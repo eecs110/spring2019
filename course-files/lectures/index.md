@@ -52,7 +52,7 @@ nav_exclude: False
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="lecture_04">lecture_04</a></td>
-            <td align="right">4/11/2019 3:14 PM</td>
+            <td align="right">4/13/2019 8:30 PM</td>
             <td>640.0B</td>
             <td>&nbsp;</td>
         </tr>
@@ -63,7 +63,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_02.zip">lecture_02.zip</a>
             </td>
-            <td align="right">4/11/2019 3:14 PM</td>
+            <td align="right">4/14/2019 9:24 AM</td>
             <td>11.6KB</td>
             <td>
             </td>
@@ -75,7 +75,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_03.zip">lecture_03.zip</a>
             </td>
-            <td align="right">4/11/2019 3:14 PM</td>
+            <td align="right">4/14/2019 9:24 AM</td>
             <td>1.6KB</td>
             <td>
             </td>
@@ -87,7 +87,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_04.zip">lecture_04.zip</a>
             </td>
-            <td align="right">4/11/2019 3:14 PM</td>
+            <td align="right">4/14/2019 9:24 AM</td>
             <td>8.6KB</td>
             <td>
             </td>

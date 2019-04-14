@@ -151,10 +151,10 @@ make_circle(canvas, (400, 200), 50, fill='teal')
 
 # Exercise 3: faces:
 print('Exercise 3...')
-make_face(canvas, (100, 300), 20)
-make_face(canvas, (200, 300), 30)
-make_face(canvas, (300, 300), 40)
-make_face(canvas, (400, 300), 50)
+make_face(canvas, (100, 300), 40)
+make_face(canvas, (200, 300), 60)
+make_face(canvas, (300, 300), 80)
+make_face(canvas, (400, 300), 100)
 
 # Exercise 4: bullseye:
 print('Exercise 4...')
