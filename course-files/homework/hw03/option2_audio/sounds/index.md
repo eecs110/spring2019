@@ -39,42 +39,6 @@ nav_exclude: True
             <td>
             </td>
         </tr>
-        <tr class="click-to-preview">
-            <td class="first-column">
-                    <i class="far fa-file"></i>
-            </td>
-            <td nowrap>
-                    <a href="heavy_rain.wav">heavy_rain.wav</a>
-            </td>
-            <td align="right">1/14/2019 8:38 PM</td>
-            <td>14.5MB</td>
-            <td>
-            </td>
-        </tr>
-        <tr class="click-to-preview">
-            <td class="first-column">
-                    <i class="far fa-file"></i>
-            </td>
-            <td nowrap>
-                    <a href="owl.wav">owl.wav</a>
-            </td>
-            <td align="right">1/14/2019 8:38 PM</td>
-            <td>1.0MB</td>
-            <td>
-            </td>
-        </tr>
-        <tr class="click-to-preview">
-            <td class="first-column">
-                    <i class="far fa-file"></i>
-            </td>
-            <td nowrap>
-                    <a href="spaceship.wav">spaceship.wav</a>
-            </td>
-            <td align="right">1/14/2019 8:38 PM</td>
-            <td>2.8MB</td>
-            <td>
-            </td>
-        </tr>
     </tbody>
 </table>
 
