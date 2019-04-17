@@ -158,7 +158,7 @@ permalink: /
                 </ol>
             </td>
             <td>
-                <span class="label label-default">Homework 3</span>
+                <a class="label label-green" href="/spring2019/course-files/homework/hw03/README">Homework 2 <i class="fas fa-link"></i></a>
             </td>
         </tr>
         <tr class="done">
