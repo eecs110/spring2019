@@ -2,6 +2,7 @@ _site
 .sass-cache
 .jekyll-metadata
 drafts
+solution
 solutions
 exams
 .ipynb_checkpoints

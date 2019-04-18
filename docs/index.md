@@ -131,7 +131,9 @@ permalink: /
                 <strong>Th Apr 18</strong><br>
                 - Conditional Execution<br>
                 - Loops and iteration<br>
-                <a href="https://docs.google.com/presentation/d/1Z4DvwqP83pJ03ByF66iI7KXJRMc2QybwS9wv_eoExec/edit?usp=sharing" target="_blank">slides</a> | <a href="course-files/lectures/lecture_06.zip">lecture files</a>
+                <a href="https://docs.google.com/presentation/d/1Z4DvwqP83pJ03ByF66iI7KXJRMc2QybwS9wv_eoExec/edit?usp=sharing" target="_blank">slides 1</a> | 
+                <a href="https://docs.google.com/presentation/d/11GGQzex7vtIHdoADQRtXl5xN-8CA3AcOnSIqLGKBU78/edit?usp=sharing" target="_blank">slides 2</a> |
+                <a href="course-files/lectures/lecture_06.zip">lecture files</a>
             </td>
             <td>
                 <ol>

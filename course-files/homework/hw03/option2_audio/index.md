@@ -32,7 +32,7 @@ nav_exclude: True
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="sounds">sounds</a></td>
-            <td align="right">4/17/2019 12:24 AM</td>
+            <td align="right">4/18/2019 3:18 PM</td>
             <td>160.0B</td>
             <td>&nbsp;</td>
         </tr>
@@ -57,8 +57,8 @@ nav_exclude: True
             <td nowrap>
                     <a href="main.py">main.py</a>
             </td>
-            <td align="right">4/18/2019 11:14 AM</td>
-            <td>266.0B</td>
+            <td align="right">4/18/2019 3:18 PM</td>
+            <td>60.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/homework/hw03/option2_audio/main.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
@@ -71,8 +71,8 @@ nav_exclude: True
             <td nowrap>
                     <a href="music.py">music.py</a>
             </td>
-            <td align="right">4/18/2019 11:14 AM</td>
-            <td>595.0B</td>
+            <td align="right">4/18/2019 3:18 PM</td>
+            <td>501.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/homework/hw03/option2_audio/music.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>

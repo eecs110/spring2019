@@ -70,8 +70,8 @@ nav_exclude: False
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="lecture_06">lecture_06</a></td>
-            <td align="right">4/17/2019 10:47 PM</td>
-            <td>256.0B</td>
+            <td align="right">4/18/2019 3:10 PM</td>
+            <td>512.0B</td>
             <td>&nbsp;</td>
         </tr>
         <tr class="click-to-preview">
@@ -81,7 +81,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_02.zip">lecture_02.zip</a>
             </td>
-            <td align="right">4/18/2019 11:22 AM</td>
+            <td align="right">4/18/2019 3:19 PM</td>
             <td>11.6KB</td>
             <td>
             </td>
@@ -93,7 +93,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_03.zip">lecture_03.zip</a>
             </td>
-            <td align="right">4/18/2019 11:22 AM</td>
+            <td align="right">4/18/2019 3:19 PM</td>
             <td>1.6KB</td>
             <td>
             </td>
@@ -105,7 +105,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_04.zip">lecture_04.zip</a>
             </td>
-            <td align="right">4/18/2019 11:22 AM</td>
+            <td align="right">4/18/2019 3:19 PM</td>
             <td>8.6KB</td>
             <td>
             </td>
@@ -117,7 +117,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_05.zip">lecture_05.zip</a>
             </td>
-            <td align="right">4/18/2019 11:22 AM</td>
+            <td align="right">4/18/2019 3:19 PM</td>
             <td>6.8KB</td>
             <td>
             </td>
@@ -129,8 +129,8 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_06.zip">lecture_06.zip</a>
             </td>
-            <td align="right">4/18/2019 11:22 AM</td>
-            <td>2.9KB</td>
+            <td align="right">4/18/2019 3:19 PM</td>
+            <td>7.6KB</td>
             <td>
             </td>
         </tr>
