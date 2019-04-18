@@ -31,15 +31,6 @@ nav_exclude: True
             <td valign="top">
                 <i class="fa fa-folder"></i>
             </td>
-            <td><a href="conditionals">conditionals</a></td>
-            <td align="right">4/16/2019 12:00 PM</td>
-            <td>192.0B</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td valign="top">
-                <i class="fa fa-folder"></i>
-            </td>
             <td><a href="functions">functions</a></td>
             <td align="right">4/16/2019 12:00 PM</td>
             <td>448.0B</td>

@@ -61,8 +61,17 @@ nav_exclude: False
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="lecture_05">lecture_05</a></td>
-            <td align="right">4/16/2019 12:00 PM</td>
-            <td>192.0B</td>
+            <td align="right">4/17/2019 10:29 PM</td>
+            <td>160.0B</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <i class="fa fa-folder"></i>
+            </td>
+            <td><a href="lecture_06">lecture_06</a></td>
+            <td align="right">4/17/2019 10:47 PM</td>
+            <td>256.0B</td>
             <td>&nbsp;</td>
         </tr>
         <tr class="click-to-preview">
@@ -72,7 +81,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_02.zip">lecture_02.zip</a>
             </td>
-            <td align="right">4/17/2019 12:24 AM</td>
+            <td align="right">4/18/2019 11:22 AM</td>
             <td>11.6KB</td>
             <td>
             </td>
@@ -84,7 +93,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_03.zip">lecture_03.zip</a>
             </td>
-            <td align="right">4/17/2019 12:24 AM</td>
+            <td align="right">4/18/2019 11:22 AM</td>
             <td>1.6KB</td>
             <td>
             </td>
@@ -96,7 +105,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_04.zip">lecture_04.zip</a>
             </td>
-            <td align="right">4/17/2019 12:24 AM</td>
+            <td align="right">4/18/2019 11:22 AM</td>
             <td>8.6KB</td>
             <td>
             </td>
@@ -108,8 +117,20 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_05.zip">lecture_05.zip</a>
             </td>
-            <td align="right">4/17/2019 12:24 AM</td>
-            <td>12.6KB</td>
+            <td align="right">4/18/2019 11:22 AM</td>
+            <td>6.8KB</td>
+            <td>
+            </td>
+        </tr>
+        <tr class="click-to-preview">
+            <td class="first-column">
+                    <i class="far fa-file-archive"></i>
+            </td>
+            <td nowrap>
+                    <a href="lecture_06.zip">lecture_06.zip</a>
+            </td>
+            <td align="right">4/18/2019 11:22 AM</td>
+            <td>2.9KB</td>
             <td>
             </td>
         </tr>

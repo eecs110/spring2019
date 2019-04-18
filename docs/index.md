@@ -112,10 +112,8 @@ permalink: /
             <td>
                 <strong>Tu Apr 16</strong><br>
                 - Functions and Modules (more practice)<br>
-                - Conditional execution<br>
-                <a href="https://docs.google.com/presentation/d/1hwxa2w-TbqAOYeM3sFuQM2v0c8jy4E0xarFP1lt_03o/edit?usp=sharing" target="_blank">slides 1</a> | <a href="https://docs.google.com/presentation/d/1Z4DvwqP83pJ03ByF66iI7KXJRMc2QybwS9wv_eoExec/edit?usp=sharing" target="_blank">slides 2</a> | <a href="course-files/lectures/lecture_05.zip">lecture files</a>
+                <a href="https://docs.google.com/presentation/d/1hwxa2w-TbqAOYeM3sFuQM2v0c8jy4E0xarFP1lt_03o/edit?usp=sharing" target="_blank">slides</a> | <a href="course-files/lectures/lecture_05.zip">lecture files</a>
             </td>
-
             <td>
                 <ol>
                     <li>Severance, Ch 3<br>
@@ -131,7 +129,9 @@ permalink: /
             <td></td>
             <td>
                 <strong>Th Apr 18</strong><br>
-                Loops and iteration
+                - Conditional Execution<br>
+                - Loops and iteration<br>
+                <a href="https://docs.google.com/presentation/d/1Z4DvwqP83pJ03ByF66iI7KXJRMc2QybwS9wv_eoExec/edit?usp=sharing" target="_blank">slides</a> | <a href="course-files/lectures/lecture_06.zip">lecture files</a>
             </td>
             <td>
                 <ol>
