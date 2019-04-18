@@ -149,7 +149,7 @@ permalink: /
             <td>Week 4</td>
             <td>
                 <strong>Tu Apr 23</strong><br>
-                Iteration and looping algorithms
+                For Loops and Lists
             </td>
             <td>
                 <ol>
@@ -167,6 +167,16 @@ permalink: /
             <td></td>
             <td>
                 <strong>Th Apr 25</strong><br>
+                Iteration and looping algorithms (Continued)
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <!-- WEEK #5 -->
+        <tr class="done">
+            <td>Week 5</td>
+            <td>
+                <strong>Tu Apr 30</strong><br>
                 User Input and Events<a href="#[2]"><sup>[2]</sup></a>
             </td>
             <td>
@@ -179,13 +189,12 @@ permalink: /
                     </li>
                 </ol>
             </td>
-            <td></td>
+            <td>            </td>
         </tr>
-        <!-- WEEK #5 -->
         <tr class="done">
-            <td>Week 5</td>
+            <td></td>
             <td>
-                <strong>Tu Apr 30</strong><br>
+                <strong>Th May 2</strong><br>
                 Exam 1 review
             </td>
             <td></td>
@@ -193,36 +202,18 @@ permalink: /
                 <span class="label label-default">Homework 4</span>
             </td>
         </tr>
-        <tr class="done">
-            <td></td>
-            <td>
-                <strong>Th May 2</strong><br>
-                Exam 1
-            </td>
-            <td></td>
-            <td><span class="label">Exam 1</span></td>
-        </tr>
         <!-- WEEK #6 -->
         <tr>
             <td>Week 6</td>
             <td>
                 <strong>Tu May 7</strong><br>
-                Logic Continued
-                <ul>
-                    <li>Binary</li>
-                    <li>And, or, and not</li>
-                    <li>Error handling</li>
-                </ul>
+                Exam 1
             </td>
             <td>
-                <ol>
-                    <li>Revisiting the readings on conditionals (from week 3)</li>
-                    <li>
-                        <a href="https://www.brianheinold.net/python/A_Practical_Introduction_to_Python_Programming_Heinold.pdf" target="_blank">Heinold, Ch 10.2-10.4</a>
-                    </li>
-                </ol>
             </td>
-            <td></td>
+            <td>
+                <span class="label">Exam 1</span>
+            </td>
         </tr>
         <tr>
             <td></td>

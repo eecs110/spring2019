@@ -100,7 +100,7 @@ Final grades are assigned on a fixed scale: 93-100 is an A, 90-92.99 is an A-, 8
 
 ### Homework Grading
 
-Homework will be approximately weekly. They are due at 11:59pm on the date specified.
+Homework will be approximately weekly. They are due at 11:59pm on Thursdays specified.
 We will still accept late homework up to 48 hours after the original due date, but with a 1.5 point penalty (30%). Homework is graded on the following scale:
 {: .prose}
 
