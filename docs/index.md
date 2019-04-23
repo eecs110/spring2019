@@ -8,7 +8,7 @@ title: Schedule
 permalink: /
 ---
 # Schedule
-> This schedule is subject to change (as needed). In addition, unless otherwise indicated, homework and projects are always due on Tuesday at 11:59PM.
+> This schedule is subject to change (as needed). In addition, unless otherwise indicated, homework and projects are always due on Thursday at 11:59PM.
 
 <table class="schedule">
     <thead>
@@ -129,10 +129,8 @@ permalink: /
             <td></td>
             <td>
                 <strong>Th Apr 18</strong><br>
-                - Conditional Execution<br>
-                - Loops and iteration<br>
-                <a href="https://docs.google.com/presentation/d/1Z4DvwqP83pJ03ByF66iI7KXJRMc2QybwS9wv_eoExec/edit?usp=sharing" target="_blank">slides 1</a> | 
-                <a href="https://docs.google.com/presentation/d/11GGQzex7vtIHdoADQRtXl5xN-8CA3AcOnSIqLGKBU78/edit?usp=sharing" target="_blank">slides 2</a> |
+                Conditional Execution<br>
+                <a href="https://docs.google.com/presentation/d/1Z4DvwqP83pJ03ByF66iI7KXJRMc2QybwS9wv_eoExec/edit?usp=sharing" target="_blank">slides</a> | 
                 <a href="course-files/lectures/lecture_06.zip">lecture files</a>
             </td>
             <td>
@@ -149,7 +147,9 @@ permalink: /
             <td>Week 4</td>
             <td>
                 <strong>Tu Apr 23</strong><br>
-                For Loops and Lists
+                Loops and Lists<br>
+                <a href="https://docs.google.com/presentation/d/11GGQzex7vtIHdoADQRtXl5xN-8CA3AcOnSIqLGKBU78/edit?usp=sharing" target="_blank">slides</a> |
+                <a href="course-files/lectures/lecture_07.zip">lecture files</a>
             </td>
             <td>
                 <ol>
@@ -160,7 +160,6 @@ permalink: /
                 </ol>
             </td>
             <td>
-                <a class="label label-green" href="/spring2019/course-files/homework/hw03/README">Homework 3 <i class="fas fa-link"></i></a>
             </td>
         </tr>
         <tr class="done">
@@ -170,7 +169,9 @@ permalink: /
                 Iteration and looping algorithms (Continued)
             </td>
             <td></td>
-            <td></td>
+            <td>
+                <a class="label label-green" href="/spring2019/course-files/homework/hw03/README">Homework 3 <i class="fas fa-link"></i></a>
+            </td>
         </tr>
         <!-- WEEK #5 -->
         <tr class="done">
@@ -278,7 +279,6 @@ permalink: /
                     <a href="https://www.py4e.com/lessons/servces">videos</a> | <a href="https://www.py4e.com/html3/13-web">textbook</a></li>
                 </ol></td>
             <td>
-                <span class="label label-default">Homework 5</span>
             </td>
         </tr>
         <tr>
@@ -288,7 +288,9 @@ permalink: /
                 Filtering, grouping, and presenting data
             </td>
             <td>TBD</td>
-            <td></td>
+            <td>
+                <span class="label label-default">Homework 5</span>
+            </td>
         </tr>
         <!-- WEEK #9 -->
         <tr>
@@ -299,7 +301,6 @@ permalink: /
             </td>
             <td>TBD</td>
             <td>
-                <span class="label label-default">Homework 6</span>
             </td>
         </tr>
         <tr>
@@ -309,7 +310,9 @@ permalink: /
                 Intro to the HTML file format: for outputting data presentations
             </td>
             <td>TBD</td>
-            <td></td>
+            <td>
+                <span class="label label-default">Homework 6</span>
+            </td>
         </tr>
         <!-- WEEK #10 -->
         <tr>

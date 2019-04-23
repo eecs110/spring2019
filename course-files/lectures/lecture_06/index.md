@@ -36,15 +36,6 @@ nav_exclude: True
             <td>224.0B</td>
             <td>&nbsp;</td>
         </tr>
-        <tr>
-            <td valign="top">
-                <i class="fa fa-folder"></i>
-            </td>
-            <td><a href="while">while</a></td>
-            <td align="right">4/18/2019 3:15 PM</td>
-            <td>256.0B</td>
-            <td>&nbsp;</td>
-        </tr>
         <tr class="click-to-preview">
             <td class="first-column">
                     <i class="fab fa-lg fa-python"></i>

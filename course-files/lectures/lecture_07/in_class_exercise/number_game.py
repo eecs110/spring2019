@@ -6,12 +6,13 @@ user_guess = None
 number_of_guesses = 0
 
 def display_secret_number(secret_number):
-    print('-' * 20)
-    print('The secret number is (just for debugging purposes):', secret_number)
-    print('-' * 20)
+    message = 'The secret number is (for debugging purposes): ' + str(secret_number)
+    print('-' * len(message))
+    print(message)
+    print('-' * len(message))
 
+display_secret_number(secret_number)
 while True:
-    display_secret_number(secret_number)
     user_guess = input('Guess a number between 1 and 100: ')
     print('Your guess is:', user_guess)
     # Your code below:
