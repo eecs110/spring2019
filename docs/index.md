@@ -166,7 +166,9 @@ permalink: /
             <td></td>
             <td>
                 <strong>Th Apr 25</strong><br>
-                Iteration and looping algorithms (Continued)
+                Iteration and looping algorithms (Continued)<br>
+                <a href="https://docs.google.com/presentation/d/1x-eoaZVJLX9nL97XS7SlGVBR6jyeZlpXSXoLHp7ZsOo/edit?usp=sharing" target="_blank">slides</a> |
+                <a href="course-files/lectures/lecture_08.zip">lecture files</a>
             </td>
             <td></td>
             <td>
