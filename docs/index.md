@@ -202,7 +202,7 @@ permalink: /
             </td>
             <td></td>
             <td>
-                <span class="label label-default">Homework 4</span>
+                <a class="label label-green" href="/spring2019/course-files/homework/hw04/README">Homework 4 <i class="fas fa-link"></i></a>
             </td>
         </tr>
         <!-- WEEK #6 -->
