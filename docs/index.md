@@ -215,7 +215,7 @@ permalink: /
             <td>
             </td>
             <td>
-                <span class="label">Exam 1</span>
+                <a class="label" href="/spring2019/course-files/practice_exams/midterm/guide">Exam Practice <i class="fas fa-link"></i></a>
             </td>
         </tr>
         <tr>

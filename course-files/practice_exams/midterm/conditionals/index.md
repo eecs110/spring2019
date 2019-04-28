@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Option2 Audio
+title: Conditionals
 nav_exclude: True
 ---
 
-# Option2 Audio
+# Conditionals
 
-[course-files/homework/hw04/option2_audio/](.)
+[course-files/practice_exams/midterm/conditionals/](.)
 
 <table class="tbl-files">
     <tbody>
@@ -32,12 +32,12 @@ nav_exclude: True
                     <i class="fab fa-lg fa-python"></i>
             </td>
             <td nowrap>
-                    <a href="main.py">main.py</a>
+                    <a href="exercise_01.py">exercise_01.py</a>
             </td>
-            <td align="right">4/26/2019 3:33 PM</td>
-            <td>2.2KB</td>
+            <td align="right">2/2/2019 2:22 PM</td>
+            <td>536.0B</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/homework/hw04/option2_audio/main.py"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/practice_exams/midterm/conditionals/exercise_01.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>
@@ -46,12 +46,12 @@ nav_exclude: True
                     <i class="fab fa-lg fa-python"></i>
             </td>
             <td nowrap>
-                    <a href="my_music.py">my_music.py</a>
+                    <a href="exercise_02.py">exercise_02.py</a>
             </td>
-            <td align="right">4/26/2019 3:32 PM</td>
-            <td>1.3KB</td>
+            <td align="right">2/2/2019 5:40 PM</td>
+            <td>383.0B</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/homework/hw04/option2_audio/my_music.py"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/practice_exams/midterm/conditionals/exercise_02.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>
@@ -60,12 +60,12 @@ nav_exclude: True
                     <i class="fab fa-lg fa-python"></i>
             </td>
             <td nowrap>
-                    <a href="threader.py">threader.py</a>
+                    <a href="exercise_03.py">exercise_03.py</a>
             </td>
-            <td align="right">4/26/2019 3:37 PM</td>
-            <td>2.5KB</td>
+            <td align="right">2/2/2019 5:51 PM</td>
+            <td>460.0B</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/homework/hw04/option2_audio/threader.py"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/practice_exams/midterm/conditionals/exercise_03.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>

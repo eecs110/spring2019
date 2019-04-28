@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Course Files
-has_children: true
-nav_order: 3
+title: Practice Exams
+parent: Course Files
+nav_order: 4
 nav_exclude: False
 ---
 
-# Course Files
+# Practice Exams
 
-[course-files/](.)
+[course-files/practice_exams/](.)
 
 <table class="tbl-files">
     <tbody>
@@ -33,28 +33,22 @@ nav_exclude: False
             <td valign="top">
                 <i class="fa fa-folder"></i>
             </td>
-            <td><a href="homework">homework</a></td>
-            <td align="right">4/26/2019 3:26 PM</td>
-            <td>416.0B</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td valign="top">
-                <i class="fa fa-folder"></i>
-            </td>
-            <td><a href="lectures">lectures</a></td>
-            <td align="right">4/25/2019 3:00 PM</td>
-            <td>576.0B</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td valign="top">
-                <i class="fa fa-folder"></i>
-            </td>
-            <td><a href="practice_exams">practice_exams</a></td>
+            <td><a href="midterm">midterm</a></td>
             <td align="right">4/28/2019 10:59 AM</td>
-            <td>224.0B</td>
+            <td>256.0B</td>
             <td>&nbsp;</td>
+        </tr>
+        <tr class="click-to-preview">
+            <td class="first-column">
+                    <i class="far fa-file-archive"></i>
+            </td>
+            <td nowrap>
+                    <a href="midterm.zip">midterm.zip</a>
+            </td>
+            <td align="right">4/28/2019 11:14 AM</td>
+            <td>22.0B</td>
+            <td>
+            </td>
         </tr>
     </tbody>
 </table>
