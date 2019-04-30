@@ -1,14 +1,12 @@
 ---
 layout: default
-title: Course Files
-has_children: true
-nav_order: 3
-nav_exclude: False
+title: Lecture 09
+nav_exclude: True
 ---
 
-# Course Files
+# Lecture 09
 
-[course-files/](.)
+[course-files/lectures/lecture_09/](.)
 
 <table class="tbl-files">
     <tbody>
@@ -33,27 +31,27 @@ nav_exclude: False
             <td valign="top">
                 <i class="fa fa-folder"></i>
             </td>
-            <td><a href="homework">homework</a></td>
-            <td align="right">4/26/2019 3:26 PM</td>
-            <td>416.0B</td>
+            <td><a href="event_demos">event_demos</a></td>
+            <td align="right">4/30/2019 9:15 AM</td>
+            <td>128.0B</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td valign="top">
                 <i class="fa fa-folder"></i>
             </td>
-            <td><a href="lectures">lectures</a></td>
-            <td align="right">4/30/2019 10:05 AM</td>
-            <td>640.0B</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td valign="top">
-                <i class="fa fa-folder"></i>
-            </td>
-            <td><a href="practice_exams">practice_exams</a></td>
-            <td align="right">4/28/2019 10:59 AM</td>
+            <td><a href="exam_practice">exam_practice</a></td>
+            <td align="right">4/30/2019 9:58 AM</td>
             <td>224.0B</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <i class="fa fa-folder"></i>
+            </td>
+            <td><a href="warmup">warmup</a></td>
+            <td align="right">4/30/2019 9:44 AM</td>
+            <td>192.0B</td>
             <td>&nbsp;</td>
         </tr>
     </tbody>

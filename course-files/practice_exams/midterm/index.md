@@ -72,8 +72,8 @@ nav_exclude: True
                         Guide
                     </a>
             </td>
-            <td align="right">4/28/2019 11:14 AM</td>
-            <td>876.0B</td>
+            <td align="right">4/28/2019 11:21 AM</td>
+            <td>877.0B</td>
             <td>
             </td>
         </tr>

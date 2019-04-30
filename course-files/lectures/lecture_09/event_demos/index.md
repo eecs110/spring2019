@@ -1,14 +1,12 @@
 ---
 layout: default
-title: Course Files
-has_children: true
-nav_order: 3
-nav_exclude: False
+title: Event Demos
+nav_exclude: True
 ---
 
-# Course Files
+# Event Demos
 
-[course-files/](.)
+[course-files/lectures/lecture_09/event_demos/](.)
 
 <table class="tbl-files">
     <tbody>
@@ -33,27 +31,18 @@ nav_exclude: False
             <td valign="top">
                 <i class="fa fa-folder"></i>
             </td>
-            <td><a href="homework">homework</a></td>
-            <td align="right">4/26/2019 3:26 PM</td>
-            <td>416.0B</td>
+            <td><a href="option1_graphics">option1_graphics</a></td>
+            <td align="right">4/30/2019 8:58 AM</td>
+            <td>448.0B</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td valign="top">
                 <i class="fa fa-folder"></i>
             </td>
-            <td><a href="lectures">lectures</a></td>
-            <td align="right">4/30/2019 10:05 AM</td>
-            <td>640.0B</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td valign="top">
-                <i class="fa fa-folder"></i>
-            </td>
-            <td><a href="practice_exams">practice_exams</a></td>
-            <td align="right">4/28/2019 10:59 AM</td>
-            <td>224.0B</td>
+            <td><a href="option2_audio">option2_audio</a></td>
+            <td align="right">4/30/2019 9:15 AM</td>
+            <td>256.0B</td>
             <td>&nbsp;</td>
         </tr>
     </tbody>

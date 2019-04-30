@@ -180,7 +180,10 @@ permalink: /
             <td>Week 5</td>
             <td>
                 <strong>Tu Apr 30</strong><br>
-                User Input and Events<a href="#[2]"><sup>[2]</sup></a>
+                User Input and Events<a href="#[2]"><sup>[2]</sup></a><br>
+                <a href="https://docs.google.com/presentation/d/1norH25AWn2_khF2yGElf6CFpIygjZRBt_xhao62jLrs/edit?usp=sharing" target="_blank">slides</a> |
+                <a href="course-files/lectures/lecture_09.zip">lecture files</a>
+                
             </td>
             <td>
                 <ol>
