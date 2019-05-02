@@ -56,6 +56,15 @@ nav_exclude: False
             <td>224.0B</td>
             <td>&nbsp;</td>
         </tr>
+        <tr>
+            <td valign="top">
+                <i class="fa fa-folder"></i>
+            </td>
+            <td><a href="projects">projects</a></td>
+            <td align="right">5/2/2019 9:26 AM</td>
+            <td>160.0B</td>
+            <td>&nbsp;</td>
+        </tr>
     </tbody>
 </table>
 

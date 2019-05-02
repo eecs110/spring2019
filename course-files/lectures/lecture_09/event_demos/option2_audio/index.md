@@ -27,6 +27,15 @@ nav_exclude: True
             <td>&nbsp;</td>
         </tr>
 
+        <tr>
+            <td valign="top">
+                <i class="fa fa-folder"></i>
+            </td>
+            <td><a href="asynchronous_audio">asynchronous_audio</a></td>
+            <td align="right">5/2/2019 9:26 AM</td>
+            <td>192.0B</td>
+            <td>&nbsp;</td>
+        </tr>
         <tr class="click-to-preview">
             <td class="first-column">
                     <i class="fab fa-lg fa-python"></i>
@@ -95,6 +104,18 @@ nav_exclude: True
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_09/event_demos/option2_audio/05_scale_demo.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
+            </td>
+        </tr>
+        <tr class="click-to-preview">
+            <td class="first-column">
+                    <i class="far fa-file-archive"></i>
+            </td>
+            <td nowrap>
+                    <a href="asynchronous_audio.zip">asynchronous_audio.zip</a>
+            </td>
+            <td align="right">4/30/2019 9:04 PM</td>
+            <td>4.4KB</td>
+            <td>
             </td>
         </tr>
     </tbody>

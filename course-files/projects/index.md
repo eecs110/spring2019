@@ -1,12 +1,14 @@
 ---
 layout: default
-title: Lecture 09
-nav_exclude: True
+title: Projects
+parent: Course Files
+nav_order: 5
+nav_exclude: False
 ---
 
-# Lecture 09
+# Projects
 
-[course-files/lectures/lecture_09/](.)
+[course-files/projects/](.)
 
 <table class="tbl-files">
     <tbody>
@@ -31,28 +33,22 @@ nav_exclude: True
             <td valign="top">
                 <i class="fa fa-folder"></i>
             </td>
-            <td><a href="event_demos">event_demos</a></td>
-            <td align="right">4/30/2019 9:04 PM</td>
+            <td><a href="project_01">project_01</a></td>
+            <td align="right">5/2/2019 9:26 AM</td>
             <td>192.0B</td>
             <td>&nbsp;</td>
         </tr>
-        <tr>
-            <td valign="top">
-                <i class="fa fa-folder"></i>
+        <tr class="click-to-preview">
+            <td class="first-column">
+                    <i class="far fa-file-archive"></i>
             </td>
-            <td><a href="exam_practice">exam_practice</a></td>
-            <td align="right">4/30/2019 10:05 AM</td>
-            <td>256.0B</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td valign="top">
-                <i class="fa fa-folder"></i>
+            <td nowrap>
+                    <a href="project_01.zip">project_01.zip</a>
             </td>
-            <td><a href="warmup">warmup</a></td>
-            <td align="right">4/30/2019 10:05 AM</td>
-            <td>224.0B</td>
-            <td>&nbsp;</td>
+            <td align="right">5/2/2019 9:28 AM</td>
+            <td>17.7KB</td>
+            <td>
+            </td>
         </tr>
     </tbody>
 </table>

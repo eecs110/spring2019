@@ -253,7 +253,7 @@ permalink: /
                 </ol>
             </td>
             <td>
-                <span class="label label-purple">Project 1</span>
+                <a class="label label-purple" href="course-files/projects/project_01/README">Project 1  <i class="fas fa-link"></i></a>
             </td>
         </tr>
         <tr>

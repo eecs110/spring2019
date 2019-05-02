@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Lecture 09
+title: Project 01
 nav_exclude: True
 ---
 
-# Lecture 09
+# Project 01
 
-[course-files/lectures/lecture_09/](.)
+[course-files/projects/project_01/](.)
 
 <table class="tbl-files">
     <tbody>
@@ -31,28 +31,33 @@ nav_exclude: True
             <td valign="top">
                 <i class="fa fa-folder"></i>
             </td>
-            <td><a href="event_demos">event_demos</a></td>
-            <td align="right">4/30/2019 9:04 PM</td>
-            <td>192.0B</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td valign="top">
-                <i class="fa fa-folder"></i>
-            </td>
-            <td><a href="exam_practice">exam_practice</a></td>
-            <td align="right">4/30/2019 10:05 AM</td>
-            <td>256.0B</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td valign="top">
-                <i class="fa fa-folder"></i>
-            </td>
-            <td><a href="warmup">warmup</a></td>
-            <td align="right">4/30/2019 10:05 AM</td>
+            <td><a href="option1_graphics">option1_graphics</a></td>
+            <td align="right">5/2/2019 9:26 AM</td>
             <td>224.0B</td>
             <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <i class="fa fa-folder"></i>
+            </td>
+            <td><a href="option2_audio">option2_audio</a></td>
+            <td align="right">5/2/2019 9:28 AM</td>
+            <td>320.0B</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr class="click-to-preview">
+            <td class="first-column">
+                    <i class="far fa-file"></i>
+            </td>
+            <td nowrap>
+                    <a href="README">
+                        Readme
+                    </a>
+            </td>
+            <td align="right">5/2/2019 9:28 AM</td>
+            <td>614.0B</td>
+            <td>
+            </td>
         </tr>
     </tbody>
 </table>

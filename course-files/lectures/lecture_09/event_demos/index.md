@@ -32,8 +32,8 @@ nav_exclude: True
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="option1_graphics">option1_graphics</a></td>
-            <td align="right">4/30/2019 8:58 AM</td>
-            <td>448.0B</td>
+            <td align="right">4/30/2019 10:05 AM</td>
+            <td>480.0B</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
@@ -41,8 +41,8 @@ nav_exclude: True
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="option2_audio">option2_audio</a></td>
-            <td align="right">4/30/2019 9:15 AM</td>
-            <td>256.0B</td>
+            <td align="right">4/30/2019 9:04 PM</td>
+            <td>352.0B</td>
             <td>&nbsp;</td>
         </tr>
     </tbody>
