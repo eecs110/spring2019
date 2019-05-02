@@ -201,7 +201,8 @@ permalink: /
             <td></td>
             <td>
                 <strong>Th May 2</strong><br>
-                Exam 1 review
+                Exam 1 review<br>
+                <a href="https://docs.google.com/presentation/d/1SrK17TULaaWXWRgXabmYaIow72Ypqbdo_iuWXb5fY6k/edit?usp=sharing" target="_blank">slides</a>
             </td>
             <td></td>
             <td>

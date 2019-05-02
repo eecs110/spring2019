@@ -2,7 +2,7 @@ EXCLUDED = [
     # 'projects',
     # 'homework',
     # 'lectures',
-    'exams',
+    # 'exams',
     'tutorials',
     'build.sh',
     'zip_it.py',
