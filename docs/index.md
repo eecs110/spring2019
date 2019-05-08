@@ -253,9 +253,7 @@ permalink: /
                     <a href="https://www.py4e.com/lessons/dictionary">videos</a> | <a href="https://www.py4e.com/html3/09-dictionaries">textbook</a></li>
                 </ol>
             </td>
-            <td>
-                <a class="label label-purple" href="course-files/projects/project_01/README">Project 1  <i class="fas fa-link"></i></a>
-            </td>
+            <td></td>
         </tr>
         <tr>
             <td></td>
@@ -270,7 +268,9 @@ permalink: /
                     </li>
                 </ol>
             </td>
-            <td></td>
+            <td>
+                <a class="label label-purple" href="course-files/projects/project_01/README">Project 1  <i class="fas fa-link"></i></a>
+            </td>
         </tr>
         <!-- WEEK #8 -->
         <tr>
