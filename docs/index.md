@@ -226,7 +226,9 @@ permalink: /
             <td></td>
             <td>
                 <strong>Th May 9</strong><br>
-                Data: Strings and files
+                Data: Strings and files<br>
+                <a href="https://docs.google.com/presentation/d/1lRHqnNiAZpmVsEhv9pWV8cf8LrRRPMUR5M-Uxu041Bo/edit?usp=sharing" target="_blank">slides</a> |
+                <a href="course-files/lectures/lecture_11.zip">lecture files</a>
             </td>
             <td>
                 <ol>
