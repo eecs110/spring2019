@@ -247,7 +247,9 @@ permalink: /
             <td>Week 7</td>
             <td>
                 <strong>Tu May 14</strong><br>
-                Data: Dictionaries and lists
+                Data: Dictionaries and lists<br>
+                <a href="https://docs.google.com/presentation/d/1XR-WFJf7XQ6TABubkQOlDRLTPTbxTva-06tYmHlo2pU/edit?usp=sharing" target="_blank">slides</a> |
+                <a href="course-files/lectures/lecture_12.zip">lecture files</a>
             </td>
             <td>
                 <ol>
