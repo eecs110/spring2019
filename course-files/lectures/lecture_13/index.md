@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Lecture 12
+title: Lecture 13
 nav_exclude: True
 ---
 
-# Lecture 12
+# Lecture 13
 
-[course-files/lectures/lecture_12/](.)
+[course-files/lectures/lecture_13/](.)
 
 <table class="tbl-files">
     <tbody>
@@ -32,8 +32,8 @@ nav_exclude: True
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="answers">answers</a></td>
-            <td align="right">5/16/2019 11:24 AM</td>
-            <td>416.0B</td>
+            <td align="right">5/16/2019 2:52 PM</td>
+            <td>352.0B</td>
             <td>&nbsp;</td>
         </tr>
         <tr class="click-to-preview">
@@ -41,12 +41,12 @@ nav_exclude: True
                     <i class="fab fa-lg fa-python"></i>
             </td>
             <td nowrap>
-                    <a href="00_warmup_florida.py">00_warmup_florida.py</a>
+                    <a href="00_error_handling.py">00_error_handling.py</a>
             </td>
-            <td align="right">5/14/2019 10:22 AM</td>
-            <td>1.0KB</td>
+            <td align="right">5/16/2019 2:31 PM</td>
+            <td>379.0B</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_12/00_warmup_florida.py"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_13/00_error_handling.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>
@@ -55,54 +55,12 @@ nav_exclude: True
                     <i class="fab fa-lg fa-python"></i>
             </td>
             <td nowrap>
-                    <a href="01_dictionary.py">01_dictionary.py</a>
+                    <a href="01_warmup.py">01_warmup.py</a>
             </td>
-            <td align="right">5/14/2019 9:35 AM</td>
-            <td>542.0B</td>
-            <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_12/01_dictionary.py"
-                        target="_blank"><i class="fab fa-github fa-lg"></i></a>
-            </td>
-        </tr>
-        <tr class="click-to-preview">
-            <td class="first-column">
-                    <i class="fab fa-lg fa-python"></i>
-            </td>
-            <td nowrap>
-                    <a href="02_dictionary_lookup_exercise.py">02_dictionary_lookup_exercise.py</a>
-            </td>
-            <td align="right">5/14/2019 9:40 AM</td>
-            <td>1.8KB</td>
-            <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_12/02_dictionary_lookup_exercise.py"
-                        target="_blank"><i class="fab fa-github fa-lg"></i></a>
-            </td>
-        </tr>
-        <tr class="click-to-preview">
-            <td class="first-column">
-                    <i class="fab fa-lg fa-python"></i>
-            </td>
-            <td nowrap>
-                    <a href="03_dictionary_lookup_from_file.py">03_dictionary_lookup_from_file.py</a>
-            </td>
-            <td align="right">5/14/2019 10:25 AM</td>
-            <td>626.0B</td>
-            <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_12/03_dictionary_lookup_from_file.py"
-                        target="_blank"><i class="fab fa-github fa-lg"></i></a>
-            </td>
-        </tr>
-        <tr class="click-to-preview">
-            <td class="first-column">
-                    <i class="fab fa-lg fa-python"></i>
-            </td>
-            <td nowrap>
-                    <a href="04_dictionary_iteration.py">04_dictionary_iteration.py</a>
-            </td>
-            <td align="right">5/14/2019 10:47 AM</td>
+            <td align="right">5/16/2019 2:34 PM</td>
             <td>1.1KB</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_12/04_dictionary_iteration.py"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_13/01_warmup.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>
@@ -111,12 +69,12 @@ nav_exclude: True
                     <i class="fab fa-lg fa-python"></i>
             </td>
             <td nowrap>
-                    <a href="05_twitter_data.py">05_twitter_data.py</a>
+                    <a href="02_warmup.py">02_warmup.py</a>
             </td>
-            <td align="right">5/14/2019 11:35 AM</td>
-            <td>657.0B</td>
+            <td align="right">5/16/2019 12:16 PM</td>
+            <td>580.0B</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_12/05_twitter_data.py"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_13/02_warmup.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>
@@ -125,12 +83,40 @@ nav_exclude: True
                     <i class="fab fa-lg fa-python"></i>
             </td>
             <td nowrap>
-                    <a href="06_twitter_data.py">06_twitter_data.py</a>
+                    <a href="03_count_letters.py">03_count_letters.py</a>
             </td>
-            <td align="right">5/14/2019 12:06 PM</td>
-            <td>492.0B</td>
+            <td align="right">5/16/2019 12:29 PM</td>
+            <td>239.0B</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_12/06_twitter_data.py"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_13/03_count_letters.py"
+                        target="_blank"><i class="fab fa-github fa-lg"></i></a>
+            </td>
+        </tr>
+        <tr class="click-to-preview">
+            <td class="first-column">
+                    <i class="fab fa-lg fa-python"></i>
+            </td>
+            <td nowrap>
+                    <a href="04_members_of_congress.py">04_members_of_congress.py</a>
+            </td>
+            <td align="right">5/16/2019 12:08 PM</td>
+            <td>336.0B</td>
+            <td>
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_13/04_members_of_congress.py"
+                        target="_blank"><i class="fab fa-github fa-lg"></i></a>
+            </td>
+        </tr>
+        <tr class="click-to-preview">
+            <td class="first-column">
+                    <i class="fab fa-lg fa-python"></i>
+            </td>
+            <td nowrap>
+                    <a href="05_restaurant_violations.py">05_restaurant_violations.py</a>
+            </td>
+            <td align="right">5/16/2019 2:45 PM</td>
+            <td>519.0B</td>
+            <td>
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_13/05_restaurant_violations.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>
@@ -139,10 +125,10 @@ nav_exclude: True
                     <i class="far fa-file"></i>
             </td>
             <td nowrap>
-                    <a href="eng2sp.json">eng2sp.json</a>
+                    <a href="Food_Establishment_Violations.csv">Food_Establishment_Violations.csv</a>
             </td>
-            <td align="right">5/14/2019 12:10 PM</td>
-            <td>45.0B</td>
+            <td align="right">5/16/2019 2:43 PM</td>
+            <td>383.5KB</td>
             <td>
             </td>
         </tr>
@@ -151,22 +137,10 @@ nav_exclude: True
                     <i class="far fa-file"></i>
             </td>
             <td nowrap>
-                    <a href="florida.csv">florida.csv</a>
+                    <a href="legislators-current.csv">legislators-current.csv</a>
             </td>
-            <td align="right">5/14/2019 7:31 AM</td>
-            <td>2.8KB</td>
-            <td>
-            </td>
-        </tr>
-        <tr class="click-to-preview">
-            <td class="first-column">
-                    <i class="far fa-file"></i>
-            </td>
-            <td nowrap>
-                    <a href="state_capitals.json">state_capitals.json</a>
-            </td>
-            <td align="right">5/14/2019 12:09 PM</td>
-            <td>1.4KB</td>
+            <td align="right">5/14/2019 10:55 AM</td>
+            <td>175.8KB</td>
             <td>
             </td>
         </tr>
@@ -177,10 +151,10 @@ nav_exclude: True
             <td nowrap>
                     <a href="utilities.py">utilities.py</a>
             </td>
-            <td align="right">5/14/2019 7:31 AM</td>
+            <td align="right">5/16/2019 11:28 AM</td>
             <td>450.0B</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_12/utilities.py"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_13/utilities.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>

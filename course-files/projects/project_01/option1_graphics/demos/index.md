@@ -62,7 +62,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="demo2_click_event.py">demo2_click_event.py</a>
             </td>
-            <td align="right">2/9/2019 4:00 PM</td>
+            <td align="right">5/16/2019 11:25 AM</td>
             <td>1.1KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_01/option1_graphics/demos/demo2_click_event.py"
@@ -132,10 +132,24 @@ nav_exclude: True
             <td nowrap>
                     <a href="demo7_layout.py">demo7_layout.py</a>
             </td>
-            <td align="right">2/9/2019 2:24 PM</td>
+            <td align="right">5/16/2019 11:24 AM</td>
             <td>1.6KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_01/option1_graphics/demos/demo7_layout.py"
+                        target="_blank"><i class="fab fa-github fa-lg"></i></a>
+            </td>
+        </tr>
+        <tr class="click-to-preview">
+            <td class="first-column">
+                    <i class="fab fa-lg fa-python"></i>
+            </td>
+            <td nowrap>
+                    <a href="demo7a_layout.py">demo7a_layout.py</a>
+            </td>
+            <td align="right">5/16/2019 8:28 AM</td>
+            <td>1.6KB</td>
+            <td>
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_01/option1_graphics/demos/demo7a_layout.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>

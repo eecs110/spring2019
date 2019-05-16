@@ -34,7 +34,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="bach.py">bach.py</a>
             </td>
-            <td align="right">5/14/2019 7:27 AM</td>
+            <td align="right">5/16/2019 11:25 AM</td>
             <td>1.5KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_01/option2_audio/bach.py"
@@ -62,7 +62,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="midi_reader.py">midi_reader.py</a>
             </td>
-            <td align="right">5/14/2019 7:27 AM</td>
+            <td align="right">5/16/2019 11:25 AM</td>
             <td>658.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_01/option2_audio/midi_reader.py"

@@ -264,6 +264,8 @@ permalink: /
             <td>
                 <strong>Th May 16</strong><br>
                 Data: Dictionary algorithms<br>
+                <a href="https://docs.google.com/presentation/d/1E1v6eu3BkFpD-nAw3A9e13B2fFtlgoRjQO64H960EzM/edit?usp=sharing" target="_blank">slides</a> |
+                <a href="course-files/lectures/lecture_13.zip">lecture files</a>
             </td>
             <td>
                 <ol>
