@@ -32,8 +32,8 @@ nav_exclude: True
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="answers">answers</a></td>
-            <td align="right">5/16/2019 2:52 PM</td>
-            <td>352.0B</td>
+            <td align="right">5/16/2019 2:55 PM</td>
+            <td>320.0B</td>
             <td>&nbsp;</td>
         </tr>
         <tr class="click-to-preview">
@@ -113,8 +113,8 @@ nav_exclude: True
             <td nowrap>
                     <a href="05_restaurant_violations.py">05_restaurant_violations.py</a>
             </td>
-            <td align="right">5/16/2019 2:45 PM</td>
-            <td>519.0B</td>
+            <td align="right">5/16/2019 2:55 PM</td>
+            <td>525.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_13/05_restaurant_violations.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
@@ -151,7 +151,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="utilities.py">utilities.py</a>
             </td>
-            <td align="right">5/16/2019 11:28 AM</td>
+            <td align="right">5/16/2019 2:55 PM</td>
             <td>450.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_13/utilities.py"

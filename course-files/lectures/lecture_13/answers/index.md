@@ -97,18 +97,6 @@ nav_exclude: True
         </tr>
         <tr class="click-to-preview">
             <td class="first-column">
-                    <i class="far fa-file"></i>
-            </td>
-            <td nowrap>
-                    <a href="playlist.json">playlist.json</a>
-            </td>
-            <td align="right">5/16/2019 12:06 PM</td>
-            <td>348.0B</td>
-            <td>
-            </td>
-        </tr>
-        <tr class="click-to-preview">
-            <td class="first-column">
                     <i class="fab fa-lg fa-python"></i>
             </td>
             <td nowrap>
