@@ -1,6 +1,6 @@
 # write a program that reads the contents of the Food_Establishment_Violations
 # for the City of Evanston and counts the number of violations that have occurred
-# for each restaurant code. The, print out the category, and the number of violations
+# for each restaurant code. The, print out the restaurant code and the number of violations
 
 # VS Code Hack:
 import sys
