@@ -301,7 +301,7 @@ permalink: /
             </td>
             <td>TBD</td>
             <td>
-                <span class="label label-default">Homework 5</span>
+                <a class="label label-green" href="/spring2019/course-files/homework/hw05/README">Homework 5 <i class="fas fa-link"></i></a>
             </td>
         </tr>
         <!-- WEEK #9 -->

@@ -65,6 +65,15 @@ nav_exclude: False
             <td>224.0B</td>
             <td>&nbsp;</td>
         </tr>
+        <tr>
+            <td valign="top">
+                <i class="fa fa-folder"></i>
+            </td>
+            <td><a href="hw05">hw05</a></td>
+            <td align="right">2/17/2019 3:59 PM</td>
+            <td>192.0B</td>
+            <td>&nbsp;</td>
+        </tr>
         <tr class="click-to-preview">
             <td class="first-column">
                     <i class="far fa-file-archive"></i>
@@ -72,7 +81,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw01.zip">hw01.zip</a>
             </td>
-            <td align="right">5/16/2019 2:55 PM</td>
+            <td align="right">5/17/2019 10:03 AM</td>
             <td>601.0B</td>
             <td>
             </td>
@@ -84,7 +93,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw02.zip">hw02.zip</a>
             </td>
-            <td align="right">5/16/2019 2:55 PM</td>
+            <td align="right">5/17/2019 10:03 AM</td>
             <td>5.6MB</td>
             <td>
             </td>
@@ -96,7 +105,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw03.zip">hw03.zip</a>
             </td>
-            <td align="right">5/16/2019 2:55 PM</td>
+            <td align="right">5/17/2019 10:03 AM</td>
             <td>5.6MB</td>
             <td>
             </td>
@@ -108,8 +117,20 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw04.zip">hw04.zip</a>
             </td>
-            <td align="right">5/16/2019 2:55 PM</td>
+            <td align="right">5/17/2019 10:03 AM</td>
             <td>4.7KB</td>
+            <td>
+            </td>
+        </tr>
+        <tr class="click-to-preview">
+            <td class="first-column">
+                    <i class="far fa-file-archive"></i>
+            </td>
+            <td nowrap>
+                    <a href="hw05.zip">hw05.zip</a>
+            </td>
+            <td align="right">5/17/2019 10:03 AM</td>
+            <td>1014.0B</td>
             <td>
             </td>
         </tr>
