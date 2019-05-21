@@ -220,6 +220,7 @@ permalink: /
             </td>
             <td>
                 <a class="label" href="/spring2019/course-files/practice_exams/midterm/guide">Exam Practice <i class="fas fa-link"></i></a>
+                <a class="label" href="https://docs.google.com/document/d/16uKFLycFygJbZ_30zuDhHBA8UUcvjmdKUuPFyFE6AJo/edit?usp=sharing" target="_blank">Exam Solutions <i class="fas fa-link"></i></a>
             </td>
         </tr>
         <tr>
