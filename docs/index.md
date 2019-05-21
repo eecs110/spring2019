@@ -283,7 +283,9 @@ permalink: /
             <td>Week 8</td>
             <td>
                 <strong>Tu May 21</strong><br>
-                Intro to cloud-based data services
+                Dictionaries + Intro to Pandas & Matplotlib<br>
+                <a href="https://docs.google.com/presentation/d/1SOfMWGLMo9EsT6oY8ZvZJ5-drfstsuXKQM1Vz7GENxg/edit?usp=sharing" target="_blank">slides</a> |
+                <a href="course-files/lectures/lecture_14.zip">lecture files</a>
             </td>
             <td>
                 <ol>
@@ -297,7 +299,7 @@ permalink: /
             <td></td>
             <td>
                 <strong>Th May 23</strong><br>
-                Filtering, grouping, and presenting data
+                Intro to cloud-based data services
             </td>
             <td>TBD</td>
             <td>
@@ -309,7 +311,7 @@ permalink: /
             <td>Week 9</td>
             <td>
                 <strong>Tu May 28</strong><br>
-                Intro to Pandas & Matplotlib
+                Data continued
             </td>
             <td>TBD</td>
             <td>
