@@ -300,9 +300,11 @@ permalink: /
             <td></td>
             <td>
                 <strong>Th May 23</strong><br>
-                Intro to cloud-based data services
+                Intro to cloud-based data services<br>
+                <a href="https://docs.google.com/presentation/d/1D5mEt6XfCexfA8OAMRAnR_-fu-nU_BSv5skzS9a8_bU/edit?usp=sharing" target="_blank">slides</a> |
+                <a href="course-files/lectures/lecture_15.zip">lecture files</a>
             </td>
-            <td>TBD</td>
+            <td></td>
             <td>
                 <a class="label label-green" href="/spring2019/course-files/homework/hw05/README">Homework 5 <i class="fas fa-link"></i></a>
             </td>

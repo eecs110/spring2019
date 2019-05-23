@@ -1,14 +1,12 @@
 ---
 layout: default
-title: Projects
-parent: Course Files
-nav_order: 6
-nav_exclude: False
+title: Answers
+nav_exclude: True
 ---
 
-# Projects
+# Answers
 
-[course-files/projects/](.)
+[course-files/lectures/lecture_15/answers/](.)
 
 <table class="tbl-files">
     <tbody>
@@ -33,22 +31,19 @@ nav_exclude: False
             <td valign="top">
                 <i class="fa fa-folder"></i>
             </td>
-            <td><a href="project_01">project_01</a></td>
-            <td align="right">5/2/2019 9:26 AM</td>
-            <td>192.0B</td>
+            <td><a href="data">data</a></td>
+            <td align="right">5/23/2019 2:51 PM</td>
+            <td>96.0B</td>
             <td>&nbsp;</td>
         </tr>
-        <tr class="click-to-preview">
-            <td class="first-column">
-                    <i class="far fa-file-archive"></i>
+        <tr>
+            <td valign="top">
+                <i class="fa fa-folder"></i>
             </td>
-            <td nowrap>
-                    <a href="project_01.zip">project_01.zip</a>
-            </td>
-            <td align="right">5/23/2019 3:23 PM</td>
-            <td>18.6KB</td>
-            <td>
-            </td>
+            <td><a href="notebooks">notebooks</a></td>
+            <td align="right">5/23/2019 2:52 PM</td>
+            <td>288.0B</td>
+            <td>&nbsp;</td>
         </tr>
     </tbody>
 </table>

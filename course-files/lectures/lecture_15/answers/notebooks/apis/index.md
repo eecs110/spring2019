@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Notebooks
+title: Apis
 nav_exclude: True
 ---
 
-# Notebooks
+# Apis
 
-[course-files/lectures/lecture_14/notebooks/](.)
+[course-files/lectures/lecture_15/answers/notebooks/apis/](.)
 
 <table class="tbl-files">
     <tbody>
@@ -29,33 +29,29 @@ nav_exclude: True
 
         <tr class="click-to-preview">
             <td class="first-column">
-                    <img class="icon-jupyter"
-                        src="{{ site.baseurl }}/assets/images/jupyter-icon.png"
-                        />
+                    <i class="fab fa-lg fa-python"></i>
             </td>
             <td nowrap>
-                    <a href="Evanston Food Inspections.ipynb">Evanston Food Inspections.ipynb</a>
+                    <a href="__init__.py">__init__.py</a>
             </td>
-            <td align="right">5/23/2019 3:23 PM</td>
-            <td>7.9KB</td>
+            <td align="right">5/23/2019 2:51 PM</td>
+            <td>0.0B</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_14/notebooks/Evanston Food Inspections.ipynb"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_15/answers/notebooks/apis/__init__.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>
         <tr class="click-to-preview">
             <td class="first-column">
-                    <img class="icon-jupyter"
-                        src="{{ site.baseurl }}/assets/images/jupyter-icon.png"
-                        />
+                    <i class="fab fa-lg fa-python"></i>
             </td>
             <td nowrap>
-                    <a href="Looking at Congress.ipynb">Looking at Congress.ipynb</a>
+                    <a href="spotify.py">spotify.py</a>
             </td>
-            <td align="right">5/21/2019 12:16 PM</td>
-            <td>9.6KB</td>
+            <td align="right">5/23/2019 2:51 PM</td>
+            <td>3.0KB</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_14/notebooks/Looking at Congress.ipynb"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_15/answers/notebooks/apis/spotify.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>
