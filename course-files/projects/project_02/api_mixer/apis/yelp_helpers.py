@@ -6,7 +6,13 @@ import json
 class Yelp(object):
     def __init__(self):
         self.token = self._get_token()
-        self.categories = [
+
+    def get_categories(self):
+        '''
+        Returns all of the available restaurant categories that the user
+        can filter by on Yelp.
+        '''
+        categories = [
             'mexican', 'sandwiches', 'breakfast_brunch', 'chinese', 'restaurants', 
             'food', 'mexican', 'sandwiches', 'breakfast_brunch', 'nightlife', 
             'bars', 'chinese', 'pizza', 'coffee', 'burgers', 'cafes', 'newamerican', 
@@ -30,7 +36,8 @@ class Yelp(object):
             'tapas', 'breweries', 'cafeteria', 'hotpot', 'kebab', 'steak', 
             'taiwanese', 'tex-mex'
         ]
-        self.categories.sort()
+        categories.sort()
+        return categories
 
     # Handles security:
     def _get_token(self):
@@ -39,7 +46,7 @@ class Yelp(object):
         return json.loads(results)['token']
 
     # retrieves data from any Spotify endpoint:
-    def _issue_get_request(self, url):
+    def _issue_get_request(self, url:str):
         request = urllib.request.Request(url, None, {
             'Authorization': 'Bearer ' + self.token
         })
@@ -52,7 +59,7 @@ class Yelp(object):
             error_message = '\n' + str(e) + '\n' + str(json.loads(error_message)) + '\n'
             raise Exception(error_message)
     
-    def _simplify_businesses(self, data):
+    def _simplify_businesses(self, data:list):
         simplified = []
         for item in data['businesses']:
             business = {
@@ -71,7 +78,7 @@ class Yelp(object):
             simplified.append(business)
         return simplified
 
-    def _simplify_comments(self, data):
+    def _simplify_comments(self, data:list):
         simplified = []
         for item in data['reviews']:
             review = {
@@ -84,11 +91,23 @@ class Yelp(object):
             simplified.append(review)
         return simplified
 
-    def get_businesses(self, location='Evanston, IL', limit=20, 
-            term=None, categories=None, sort_by=None, price=None, open_now=None,
-            simplify=True):
+    def get_businesses(self, location:str='Evanston, IL', limit:int=20, 
+            term:str=None, categories:str=None, sort_by:str=None, price:int=None, open_now:str=None,
+            simplify:bool=True):
         '''
-        Searches for Yelp businesses based on various search criteria
+        Searches for Yelp businesses based on various search criteria, including:
+        
+          * location (str):   Location of the search
+          * limit (int):      An integer indicating how many records to return. Max of 50.
+          * term (str):       A search term
+          * categories (str): One or more comma-delimited categories to filter by.
+          * sort_by (str):    How to order search results. Options are: 
+                              best_match, rating, review_count, distance
+          * price (int):      How expensive 1, 2, 3, 4 or comma-delimited list, e.g.: 1,2
+          * open_now (str):   Set to 'true' if you only want the open restaurants
+          * simplify (bool):  Indicates whether you want to simplify the data that is returned.
+
+        Returns a list of businesses matching your search / ordering / limit criteria.
         '''
 
         url = 'https://api.yelp.com/v3/businesses/search?location=' + \
@@ -98,8 +117,8 @@ class Yelp(object):
         if categories:
             url += '&categories=' + urllib.parse.quote_plus(categories)
         if sort_by:
-            # if sort_by not in ['best_match', 'rating', 'review_count', 'distance']:
-            #     raise Exception(sort_by + " not in ['best_match', 'rating', 'review_count', 'distance']")
+            if sort_by not in ['best_match', 'rating', 'review_count', 'distance']:
+                raise Exception(sort_by + " not in ['best_match', 'rating', 'review_count', 'distance']")
             url += '&sort_by=' + urllib.parse.quote_plus(sort_by)
         if price:
             url += '&price=' + str(price)  #1, 2, 3, 4 -or- 1,2 (for more than one)
@@ -113,7 +132,13 @@ class Yelp(object):
             return data
         return self._simplify_businesses(data)
 
-    def get_comments(self, business_id, simplify=True):
+    def get_reviews(self, business_id:int, simplify:bool=True):
+        '''
+        Retrieves a list of Yelp reviews for a particular business.
+          * business_id (int): [Required] An integer corresponding to the business id.
+          * simplify (bool):   Indicates whether you want to simplify the data that is returned.
+        Returns a list of reviews.
+        '''
         # https://www.yelp.com/developers/documentation/v3/business_reviews
         url = 'https://api.yelp.com/v3/businesses/' + business_id + '/reviews'
         data = self._issue_get_request(url)
@@ -121,7 +146,9 @@ class Yelp(object):
             return data
         return self._simplify_comments(data)
 
-    # renders an image (with URL argument)
-    def get_image_html(self, image_url):
+    def get_image_html(self, image_url:str):
+        '''
+        Returns an HTML image (str). Requires an image_url (string) argument.
+        '''
         from IPython.display import Image
         return Image(url=image_url)._repr_html_()

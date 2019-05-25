@@ -31,6 +31,12 @@ class YouTube(object):
 
 
     def get_videos(self, search_term, simplify=True):
+        '''
+        Retrieves a list of YouTube videos.
+          * search_term (str): Required search term
+          * simplify (bool):   Indicates whether you want to simplify the data that is returned.
+        Returns a list of YouTube videos.
+        '''
         search_term = urllib.parse.quote_plus(search_term)
         url = 'https://www.googleapis.com/youtube/v3/search?part=snippet&q=' + search_term + '&type=video&key=' + self.token
         response = urlopen(url)
@@ -40,6 +46,10 @@ class YouTube(object):
         return self._simplify(data)
 
     def get_video_player_html(self, embed_url, width=560, height=315):
+        '''
+        Returns an HTML IFrame (str). Requires an embed_url (string) argument.
+        '''
+
         return '''
         <iframe width="{width}" height="{height}" src="{embed_url}" 
             frameborder="0" 
@@ -49,5 +59,8 @@ class YouTube(object):
         '''.format(width=width, height=height, embed_url=embed_url)
 
     def get_image_html(self, image_url):
+        '''
+        Returns an HTML image (str). Requires an image_url (string) argument.
+        '''
         from IPython.display import Image
         return Image(url=image_url)._repr_html_()

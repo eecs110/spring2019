@@ -3,17 +3,21 @@ import pprint
 
 help(yelp)
 
-data = yelp.get_businesses(sort_by='review_count', limit=10, simplify=True, categories='italian')
+# businesses = yelp.get_businesses(categories='italian', location='Tallahassee, FL', limit=5)
+# pprint.pprint(businesses, indent=3)
 
-print()
-pprint.pprint(data, indent=3)
+# print()
+# for business in businesses:
+#     print(
+#         business.get('name'), 
+#         business.get('rating'), 
+#         business.get('price'), 
+#         business.get('review_count')
+#     )
 
-print()
-for item in data:
-    print(item.get('name'), item.get('rating'), item.get('price'), item.get('review_count'))
+# print()
+# print(yelp.get_categories())
 
-print()
-print(yelp.categories)
-
-print()
-pprint.pprint(yelp.get_comments(data[1]['id']))
+# print()
+# business = businesses[0]
+# pprint.pprint(yelp.get_reviews(business['id']))
