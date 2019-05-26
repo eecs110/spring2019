@@ -60,7 +60,7 @@ class YouTube(object):
 
     def get_image_html(self, image_url):
         '''
-        Returns an HTML image (str). Requires an image_url (string) argument.
+        Returns an HTML image tag (str). Requires an image_url (string) argument.
         '''
         from IPython.display import Image
         return Image(url=image_url)._repr_html_()

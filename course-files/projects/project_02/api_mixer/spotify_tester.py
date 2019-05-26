@@ -1,9 +1,13 @@
 from apis import spotify
+from pprint import pprint
 
-help(spotify)
+# help(spotify)
 
-# data = spotify.get_tracks('Beyonce')
-# #print(data)
+playlists = spotify.get_playlists_by_user('spotify', simplify=True)
+pprint(playlists, depth=3)
+
+# playlists = spotify.get_playlists('cut copy', simplify=False)
+# pprint(playlists, depth=5)
 
 # item = data[0]
 # track_id = item['id']
