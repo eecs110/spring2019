@@ -1,7 +1,7 @@
 from apis import spotify
 from pprint import pprint
 
-# help(spotify)
+help(spotify)
 
 playlists = spotify.get_playlists_by_user('spotify', simplify=True)
 pprint(playlists, depth=3)
