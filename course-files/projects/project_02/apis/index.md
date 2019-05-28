@@ -60,20 +60,6 @@ nav_exclude: True
                     <i class="fab fa-lg fa-python"></i>
             </td>
             <td nowrap>
-                    <a href="my_token.py">my_token.py</a>
-            </td>
-            <td align="right">5/27/2019 10:56 PM</td>
-            <td>60.0B</td>
-            <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_02/apis/my_token.py"
-                        target="_blank"><i class="fab fa-github fa-lg"></i></a>
-            </td>
-        </tr>
-        <tr class="click-to-preview">
-            <td class="first-column">
-                    <i class="fab fa-lg fa-python"></i>
-            </td>
-            <td nowrap>
                     <a href="sendgrid.py">sendgrid.py</a>
             </td>
             <td align="right">5/28/2019 11:43 AM</td>
