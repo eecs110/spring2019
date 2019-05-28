@@ -32,8 +32,8 @@ nav_exclude: True
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="apis">apis</a></td>
-            <td align="right">5/27/2019 10:55 PM</td>
-            <td>352.0B</td>
+            <td align="right">5/28/2019 9:41 AM</td>
+            <td>384.0B</td>
             <td>&nbsp;</td>
         </tr>
         <tr class="click-to-preview">
@@ -45,8 +45,8 @@ nav_exclude: True
                         Readme
                     </a>
             </td>
-            <td align="right">5/28/2019 9:39 AM</td>
-            <td>498.0B</td>
+            <td align="right">5/28/2019 9:51 AM</td>
+            <td>1.3KB</td>
             <td>
             </td>
         </tr>

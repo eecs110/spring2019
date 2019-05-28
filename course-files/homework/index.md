@@ -74,6 +74,15 @@ nav_exclude: False
             <td>192.0B</td>
             <td>&nbsp;</td>
         </tr>
+        <tr>
+            <td valign="top">
+                <i class="fa fa-folder"></i>
+            </td>
+            <td><a href="hw06">hw06</a></td>
+            <td align="right">5/28/2019 9:52 AM</td>
+            <td>128.0B</td>
+            <td>&nbsp;</td>
+        </tr>
         <tr class="click-to-preview">
             <td class="first-column">
                     <i class="far fa-file-archive"></i>
@@ -81,7 +90,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw01.zip">hw01.zip</a>
             </td>
-            <td align="right">5/28/2019 9:41 AM</td>
+            <td align="right">5/28/2019 9:55 AM</td>
             <td>601.0B</td>
             <td>
             </td>
@@ -93,7 +102,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw02.zip">hw02.zip</a>
             </td>
-            <td align="right">5/28/2019 9:41 AM</td>
+            <td align="right">5/28/2019 9:55 AM</td>
             <td>5.6MB</td>
             <td>
             </td>
@@ -105,7 +114,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw03.zip">hw03.zip</a>
             </td>
-            <td align="right">5/28/2019 9:41 AM</td>
+            <td align="right">5/28/2019 9:55 AM</td>
             <td>5.6MB</td>
             <td>
             </td>
@@ -117,7 +126,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw04.zip">hw04.zip</a>
             </td>
-            <td align="right">5/28/2019 9:41 AM</td>
+            <td align="right">5/28/2019 9:55 AM</td>
             <td>4.7KB</td>
             <td>
             </td>
@@ -129,8 +138,20 @@ nav_exclude: False
             <td nowrap>
                     <a href="hw05.zip">hw05.zip</a>
             </td>
-            <td align="right">5/28/2019 9:41 AM</td>
+            <td align="right">5/28/2019 9:55 AM</td>
             <td>1014.0B</td>
+            <td>
+            </td>
+        </tr>
+        <tr class="click-to-preview">
+            <td class="first-column">
+                    <i class="far fa-file-archive"></i>
+            </td>
+            <td nowrap>
+                    <a href="hw06.zip">hw06.zip</a>
+            </td>
+            <td align="right">5/28/2019 9:55 AM</td>
+            <td>297.0B</td>
             <td>
             </td>
         </tr>

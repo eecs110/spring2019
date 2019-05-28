@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Project 01
+title: Hw06
 nav_exclude: True
 ---
 
-# Project 01
+# Hw06
 
-[course-files/projects/project_01/](.)
+[course-files/homework/hw06/](.)
 
 <table class="tbl-files">
     <tbody>
@@ -27,24 +27,6 @@ nav_exclude: True
             <td>&nbsp;</td>
         </tr>
 
-        <tr>
-            <td valign="top">
-                <i class="fa fa-folder"></i>
-            </td>
-            <td><a href="option1_graphics">option1_graphics</a></td>
-            <td align="right">5/15/2019 9:52 PM</td>
-            <td>256.0B</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td valign="top">
-                <i class="fa fa-folder"></i>
-            </td>
-            <td><a href="option2_audio">option2_audio</a></td>
-            <td align="right">5/16/2019 11:25 AM</td>
-            <td>320.0B</td>
-            <td>&nbsp;</td>
-        </tr>
         <tr class="click-to-preview">
             <td class="first-column">
                     <i class="far fa-file"></i>
@@ -54,8 +36,8 @@ nav_exclude: True
                         Readme
                     </a>
             </td>
-            <td align="right">5/28/2019 9:51 AM</td>
-            <td>614.0B</td>
+            <td align="right">5/28/2019 9:55 AM</td>
+            <td>220.0B</td>
             <td>
             </td>
         </tr>

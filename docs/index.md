@@ -327,9 +327,7 @@ permalink: /
                 Intro to the HTML file format: for outputting data presentations
             </td>
             <td>TBD</td>
-            <td>
-                <span class="label label-default">Homework 6</span>
-            </td>
+            <td></td>
         </tr>
         <!-- WEEK #10 -->
         <tr>
@@ -339,7 +337,9 @@ permalink: /
                 Exam Review
             </td>
             <td></td>
-            <td></td>
+            <td>
+                <a class="label label-green" href="/spring2019/course-files/homework/hw06/README">Homework 6 <i class="fas fa-link"></i></a>
+            </td>
         </tr>
         <tr>
             <td></td>
@@ -358,7 +358,7 @@ permalink: /
             </td>
             <td></td>
             <td>
-                <span class="label label-purple">Project 2</span>
+                <a class="label label-purple" href="course-files/projects/project_02/README">Project 2  <i class="fas fa-link"></i></a>
             </td>
         </tr>
     </tbody>
