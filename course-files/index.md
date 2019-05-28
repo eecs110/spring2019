@@ -61,8 +61,8 @@ nav_exclude: False
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="lectures">lectures</a></td>
-            <td align="right">5/28/2019 9:40 AM</td>
-            <td>960.0B</td>
+            <td align="right">5/28/2019 1:18 PM</td>
+            <td>1.0KB</td>
             <td>&nbsp;</td>
         </tr>
         <tr>

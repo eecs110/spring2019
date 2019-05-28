@@ -314,7 +314,9 @@ permalink: /
             <td>Week 9</td>
             <td>
                 <strong>Tu May 28</strong><br>
-                Data continued
+                More practice with cloud-based data services<br>
+                <a href="https://docs.google.com/presentation/d/1h6ltr-qE2aGTUdqyjtizBTFOdsC0OXvizH5aMXEsYms/edit?usp=sharing" target="_blank">slides</a> |
+                <a href="course-files/lectures/lecture_16.zip">lecture files</a>
             </td>
             <td>TBD</td>
             <td>
