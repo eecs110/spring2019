@@ -33,6 +33,15 @@ nav_exclude: False
             <td valign="top">
                 <i class="fa fa-folder"></i>
             </td>
+            <td><a href=".vscode">.vscode</a></td>
+            <td align="right">5/26/2019 6:34 PM</td>
+            <td>96.0B</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <i class="fa fa-folder"></i>
+            </td>
             <td><a href="exams">exams</a></td>
             <td align="right">5/9/2019 3:16 PM</td>
             <td>128.0B</td>
@@ -52,7 +61,7 @@ nav_exclude: False
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="lectures">lectures</a></td>
-            <td align="right">5/23/2019 3:23 PM</td>
+            <td align="right">5/28/2019 9:40 AM</td>
             <td>960.0B</td>
             <td>&nbsp;</td>
         </tr>
@@ -70,8 +79,8 @@ nav_exclude: False
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="projects">projects</a></td>
-            <td align="right">5/2/2019 9:26 AM</td>
-            <td>160.0B</td>
+            <td align="right">5/28/2019 9:41 AM</td>
+            <td>224.0B</td>
             <td>&nbsp;</td>
         </tr>
     </tbody>

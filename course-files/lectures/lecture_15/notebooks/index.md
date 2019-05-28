@@ -31,15 +31,6 @@ nav_exclude: True
             <td valign="top">
                 <i class="fa fa-folder"></i>
             </td>
-            <td><a href="apis">apis</a></td>
-            <td align="right">5/23/2019 3:23 PM</td>
-            <td>192.0B</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td valign="top">
-                <i class="fa fa-folder"></i>
-            </td>
             <td><a href="results">results</a></td>
             <td align="right">5/23/2019 3:28 PM</td>
             <td>96.0B</td>
@@ -90,22 +81,6 @@ nav_exclude: True
             <td>4.1KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_15/notebooks/03. Divvy Bikes Demo.ipynb"
-                        target="_blank"><i class="fab fa-github fa-lg"></i></a>
-            </td>
-        </tr>
-        <tr class="click-to-preview">
-            <td class="first-column">
-                    <img class="icon-jupyter"
-                        src="{{ site.baseurl }}/assets/images/jupyter-icon.png"
-                        />
-            </td>
-            <td nowrap>
-                    <a href="04. Spotify Demo.ipynb">04. Spotify Demo.ipynb</a>
-            </td>
-            <td align="right">5/23/2019 3:22 PM</td>
-            <td>3.2KB</td>
-            <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_15/notebooks/04. Spotify Demo.ipynb"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>

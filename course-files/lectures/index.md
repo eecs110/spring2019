@@ -2,7 +2,7 @@
 layout: default
 title: Lectures
 parent: Course Files
-nav_order: 4
+nav_order: 5
 nav_exclude: False
 ---
 
@@ -153,7 +153,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_02.zip">lecture_02.zip</a>
             </td>
-            <td align="right">5/23/2019 3:29 PM</td>
+            <td align="right">5/28/2019 9:41 AM</td>
             <td>11.6KB</td>
             <td>
             </td>
@@ -165,7 +165,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_03.zip">lecture_03.zip</a>
             </td>
-            <td align="right">5/23/2019 3:29 PM</td>
+            <td align="right">5/28/2019 9:41 AM</td>
             <td>1.6KB</td>
             <td>
             </td>
@@ -177,7 +177,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_04.zip">lecture_04.zip</a>
             </td>
-            <td align="right">5/23/2019 3:29 PM</td>
+            <td align="right">5/28/2019 9:41 AM</td>
             <td>8.6KB</td>
             <td>
             </td>
@@ -189,7 +189,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_05.zip">lecture_05.zip</a>
             </td>
-            <td align="right">5/23/2019 3:29 PM</td>
+            <td align="right">5/28/2019 9:41 AM</td>
             <td>6.8KB</td>
             <td>
             </td>
@@ -201,7 +201,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_06.zip">lecture_06.zip</a>
             </td>
-            <td align="right">5/23/2019 3:29 PM</td>
+            <td align="right">5/28/2019 9:41 AM</td>
             <td>5.3KB</td>
             <td>
             </td>
@@ -213,7 +213,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_07.zip">lecture_07.zip</a>
             </td>
-            <td align="right">5/23/2019 3:29 PM</td>
+            <td align="right">5/28/2019 9:41 AM</td>
             <td>6.8KB</td>
             <td>
             </td>
@@ -225,7 +225,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_08.zip">lecture_08.zip</a>
             </td>
-            <td align="right">5/23/2019 3:29 PM</td>
+            <td align="right">5/28/2019 9:41 AM</td>
             <td>19.3KB</td>
             <td>
             </td>
@@ -237,7 +237,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_09.zip">lecture_09.zip</a>
             </td>
-            <td align="right">5/23/2019 3:29 PM</td>
+            <td align="right">5/28/2019 9:41 AM</td>
             <td>21.3KB</td>
             <td>
             </td>
@@ -249,7 +249,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_11.zip">lecture_11.zip</a>
             </td>
-            <td align="right">5/23/2019 3:29 PM</td>
+            <td align="right">5/28/2019 9:41 AM</td>
             <td>984.0KB</td>
             <td>
             </td>
@@ -261,7 +261,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_12.zip">lecture_12.zip</a>
             </td>
-            <td align="right">5/23/2019 3:29 PM</td>
+            <td align="right">5/28/2019 9:41 AM</td>
             <td>12.3KB</td>
             <td>
             </td>
@@ -273,7 +273,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_13.zip">lecture_13.zip</a>
             </td>
-            <td align="right">5/23/2019 3:29 PM</td>
+            <td align="right">5/28/2019 9:41 AM</td>
             <td>189.6KB</td>
             <td>
             </td>
@@ -285,7 +285,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_14.zip">lecture_14.zip</a>
             </td>
-            <td align="right">5/23/2019 3:29 PM</td>
+            <td align="right">5/28/2019 9:41 AM</td>
             <td>433.1KB</td>
             <td>
             </td>
@@ -297,8 +297,8 @@ nav_exclude: False
             <td nowrap>
                     <a href="lecture_15.zip">lecture_15.zip</a>
             </td>
-            <td align="right">5/23/2019 3:29 PM</td>
-            <td>146.0KB</td>
+            <td align="right">5/28/2019 9:41 AM</td>
+            <td>143.7KB</td>
             <td>
             </td>
         </tr>
