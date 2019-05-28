@@ -3,11 +3,26 @@ from urllib.request import urlopen
 import json
 import pandas as pd
 import collections
-from apis import authentication
+from apis import authentication, utilities
 
+get_image_html = utilities.get_image_html
+flatten_for_pandas = utilities.flatten_for_pandas
+get_dataframe = utilities.get_dataframe
+get_jupyter_styling = utilities.get_jupyter_styling
 
-API_TUTOR_TOKEN = 'API.fda8c628-f8f0-448d-aad8-42c2fcd067ec'
+def get_genres():
+    url = 'https://api.spotify.com/v1/recommendations/available-genre-seeds'
+    data = _issue_get_request(url)
+    return data['genres']
 
+def get_genres_abridged():
+    return [
+        "alternative", "ambient", "blues", 
+        "chill", "country", "dance", "electronic", "folk", 
+        "funk", "happy", "hip-hop", "indie-pop", "jazz", "k-pop", "metal", 
+        "new-release", "pop", "punk", "reggae", "rock",
+        "soul", "study", "trance", "work-out", "world-music"
+    ]
 
 def get_tracks(search_term:str, simplify:bool=True):
     '''
@@ -119,24 +134,29 @@ def get_audio_features_by_track(track_id:str):
     url = 'https://api.spotify.com/v1/audio-features/' + track_id
     return _issue_get_request(url)
 
-def get_similar_tracks(artist_ids:str=None, track_ids:str=None, simplify=False): 
+def get_similar_tracks(artist_ids:list=[], track_ids:list=[], genres:list=[], simplify=False): 
     '''
-    Spotify's way of providing recommendations. Either artist_ids or track_ids (or both) is required.
-        * artist_ids (str): A comma-delimited list of artists
-        * track_ids (str): A comma-delimited list of tracks
+    Spotify's way of providing recommendations. One or more params is required: 
+    artist_ids, track_ids, or genres. Up to 5 seed values may be provided in 
+    any combination of seed_artists, seed_tracks and seed_genres. In other words:
+    len(artist_ids) + len(track_ids) + len(genres) between 1 and 5.
+        * artist_ids (list): A list of artist ids
+        * track_ids (list): A list of track ids
+        * genres (genres): A list of genres
     Returns a list of tracks that are similar
     '''
-        # a comma-delimited list of artists
-        # a comma-delimited list of tracks
-    if not artist_ids and not track_ids:
-        raise Exception('Either artist_ids or track_ids is required')
+    if not artist_ids and not track_ids and not genres:
+        raise Exception('Either artist_ids or track_ids or genres required')
     params = []
     if artist_ids:
-        params.append('seed_artists=' + artist_ids)
+        params.append('seed_artists=' + ','.join(artist_ids))
     if track_ids:
-        params.append('seed_tracks=' + track_ids)
+        params.append('seed_tracks=' + ','.join(track_ids))
+    if genres:
+        params.append('seed_genres=' + ','.join(genres))
     
     url = 'https://api.spotify.com/v1/recommendations?' + '&'.join(params)
+    print(url)
     data = _issue_get_request(url)
     if not simplify:
         return data
@@ -173,42 +193,35 @@ def get_album_player_html(album_id:int, width:int=300, height:int=380):
         allow="encrypted-media">
     </iframe>'''.format(album_id=album_id, width=width, height=height)
 
-def get_image_html(image_url:str):
+def get_formatted_tracklist_table_html(tracks:list):
     '''
-    Creates an image (HTML)
-        * image_url (str): [Required] The url of the image.
-    Returns an HTML image tag (str).
+    Makes a nice formatted HTML table of tracks. Good for writing to an 
+    HTML file or for sending in an email.
+        * tracks(list): [Required] A list of tracks
+    Returns an HTML table as a string 
     '''
-    from IPython.display import Image
-    return Image(url=image_url)._repr_html_()
-
-def flatten_for_pandas(data:list):
-    flattened_list = []
-    count = 1
-    for item in data:
-        item = _flatten(item)
-        item['num'] = count
-        flattened_list.append(item)
-        count += 1
-    return flattened_list
+    if not tracks:
+        print('A list of tracks is required.')
+        return
+    flattened_data = flatten_for_pandas(tracks)
+    pd.set_option('display.max_colwidth', -1)
+    df = get_dataframe(flattened_data)
+    keys = ['name', 'album_image_url_small', 'artist_name', 'album_name', 'share_url']
+    df = df[keys]
     
-def get_dataframe(data:list):
-    flattened_list = flatten_for_pandas(data)
-    return pd.DataFrame(flattened_list).set_index('num')
-
-def get_jupyter_styling():
-    return """
-        <style>
-            .rendered_html img { 
-                display: inline-block; 
-                vertical-align: baseline;
-                max-width: 200px !important;
-                margin-right: 20px !important;
-            }
-            .rendered_html td, .rendered_html th { text-align: left !important; }
-        </style>
-        """
-
+    def image_formatter(im):
+        return f'<img src="{im}" />'
+    formatters={
+        'album_image_url_small': image_formatter
+    }
+    playlist_table = df.to_html(formatters=formatters, escape=False, index=False)
+    playlist_table = playlist_table.replace('style="text-align: right;"', '')
+    playlist_table = playlist_table.replace('<tr>', '<tr style="border: solid 1px #CCC;">')
+    playlist_table = playlist_table.replace(
+        '<table border="1" class="dataframe">', 
+        '<table style="border-collapse: collapse; border: solid 1px #CCC;">'
+    )
+    return playlist_table
 
 
 ############################################
@@ -231,6 +244,7 @@ def _simplify_tracks(tracks:list):
         return tracks
 
     simplified = []
+    # print(tracks[0])
     for item in tracks:
         track = { 
             'id': item['id'], 
@@ -249,14 +263,15 @@ def _simplify_tracks(tracks:list):
         except Exception:
             pass
         try:
-            artist = item['album']['artists'][0]
+            artists = item.get('album').get('artists')
+            artist = artists[0]
             track['artist'] = { 
                 'id': artist['id'], 
                 'name': artist['name'],
-                'share_url': 'https://open.spotify.com/artist/' + item['album']['artists'][0]
+                'share_url': 'https://open.spotify.com/artist/' + item['album']['artists'][0]['id']
             }
         except Exception:
-            pass
+           pass
         simplified.append(track)
     return simplified
 

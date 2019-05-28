@@ -1,4 +1,8 @@
-API_TUTOR_TOKEN = 'API.fda8c628-f8f0-448d-aad8-42c2fcd067ec'
+try:
+    from apis import my_token
+    API_TUTOR_TOKEN = my_token.API_TUTOR_TOKEN
+except:
+    raise Exception('Go to Canvas to get the token')
 import urllib.request
 from urllib.request import urlopen
 import json

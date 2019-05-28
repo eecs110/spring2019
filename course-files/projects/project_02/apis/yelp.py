@@ -1,7 +1,14 @@
 import urllib.request
 from urllib.request import urlopen
 import json
-from apis import authentication
+from apis import authentication, utilities
+import pandas as pd
+
+
+get_image_html = utilities.get_image_html
+flatten_for_pandas = utilities.flatten_for_pandas
+get_dataframe = utilities.get_dataframe
+get_jupyter_styling = utilities.get_jupyter_styling
 
 
 # https://www.yelp.com/developers/documentation/v3/business_search
@@ -37,6 +44,16 @@ def get_categories():
     categories.sort()
     return categories
 
+def get_categories_abridged():
+    # feel free to modify this as you like
+    categories = [
+        'mexican', 'chinese', 'pizza', 'italian', 'thai', 'japanese',
+        'vietnamese', 'asianfusion', 'ethiopian', 'korean', 'indpak',
+        'mideastern', 'tapas', 'pakistani', 'brazilian', 'filipino',
+        'african', 'greek', 'coffee', 'dessert'
+    ]
+    categories.sort()
+    return categories
 
 # retrieves data from any Spotify endpoint:
 def _issue_get_request(url:str):
@@ -54,6 +71,8 @@ def _issue_get_request(url:str):
         raise Exception(error_message)
 
 def _simplify_businesses(data:list):
+    def get_alias(item):
+        return item['alias']
     simplified = []
     for item in data['businesses']:
         business = {
@@ -64,7 +83,8 @@ def _simplify_businesses(data:list):
             'display_address': '., '.join(item['location']['display_address']),
             'coordinates': item['coordinates'],
             'review_count': item['review_count'],
-            'share_url': item['url'].split('?')[0]
+            'share_url': item['url'].split('?')[0],
+            'categories': ', '.join(list(map(get_alias, item['categories'])))
         }
         try:
             business['price'] = item['price']
@@ -79,8 +99,8 @@ def _simplify_comments(data:list):
         review = {
             'id': item['id'],
             'rating': item['rating'],
-            'text': item['text'],
-            'time_created': item['time_created'],
+            'text': item['text'].replace('\n', ' '),
+            'time_created': item['time_created'].split(' ')[0],
             'url': item['url']
         }
         simplified.append(review)
@@ -139,9 +159,71 @@ def get_reviews(business_id:int, simplify:bool=True):
         return data
     return _simplify_comments(data)
 
-def get_image_html(image_url:str):
+def get_formatted_business_table(business:dict, reviews:list=None, to_html=True):
     '''
-    Returns an HTML image tag (str). Requires an image_url (string) argument.
+    Makes a nice formatted HTML table of tracks. Good for writing to an 
+    HTML file or for sending in an email.
+        * tracks(list): [Required] A list of tracks
+    Returns an HTML table as a string 
     '''
-    from IPython.display import Image
-    return Image(url=image_url)._repr_html_()
+    if not business:
+        print('A business is required.')
+        return
+    pd.set_option('display.max_colwidth', -1)
+    
+    # business table:
+    keys = ['name', 'rating', 'price', 'review_count', 'display_address', 'categories', 'share_url']
+    business_transposed = []
+    for key in keys:
+        business_transposed.append({
+            'name': key,
+            'value': str(business[key])
+        })
+    if to_html:
+        # show image:
+        business_transposed.append({
+            'name': 'image',
+            'value': '<img style="max-width: 300px;" src="' +  business['image_url'] + '" />'
+        })
+    df_business = get_dataframe(business_transposed)
+
+    business_formatters={
+        'name': '{{:<{}s}}'.format(df_business['name'].str.len().max()).format,
+        'value': '{{:<{}s}}'.format(df_business['value'].str.len().max()).format
+    }
+    
+    # reviews table:
+    df_reviews = get_dataframe(reviews)
+    df_reviews = df_reviews[['time_created', 'rating', 'text']]
+    review_formatters={
+        'time_created': '{{:<{}s}}'.format(df_reviews['time_created'].str.len().max()).format,
+        'text': '{{:<{}s}}'.format(df_reviews['text'].str.len().max()).format
+    }
+
+    if to_html:
+        table_1 = df_business.to_html(formatters=business_formatters, escape=False, header=None, index=False)
+        table_2 = df_reviews.to_html(formatters=review_formatters, escape=False, index=False)
+    
+        html = '<h1>' + business['name'].upper() + '</h1>' + \
+            table_1 + '<h2>Reviews</h2>' + table_2
+        html = html.replace('style="text-align: right;"', '')
+        html = html.replace('<tr>', '<tr style="border: solid 1px #CCC;">')
+        html = html.replace(
+            '<table border="1" class="dataframe">', 
+            '<table style="border-collapse: collapse; border: solid 1px #CCC;width:700px;">'
+        )
+        return html
+    else:
+        table_1 = df_business.to_string(formatters=business_formatters, justify='left', index=False, header=None)
+        table_2 = df_reviews.to_string(formatters=review_formatters, justify='left', index=False, header=None)
+        row_len = 72
+        pd.set_option('display.max_colwidth', 80)
+        return (
+            '-' * row_len + '\n' + 
+            business['name'].upper() + '\n' +
+            '-' * row_len + '\n' + 
+            table_1 + 
+            '\n\n Reviews:\n' + 
+            table_2 +
+            '\n' + '-' * row_len
+        )
