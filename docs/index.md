@@ -326,7 +326,9 @@ permalink: /
             <td></td>
             <td>
                 <strong>Th May 30</strong><br>
-                Intro to the HTML file format: for outputting data presentations
+                Intro to the HTML file format: for outputting data presentations<br>
+                <a href="https://docs.google.com/presentation/d/1LLNCPTcSgTjB_78t4pgQT6XzYOMAHysuuXYYnpjNcHE/edit?usp=sharing" target="_blank">slides</a> |
+                <a href="course-files/lectures/lecture_17.zip">lecture files</a>
             </td>
             <td>TBD</td>
             <td></td>
