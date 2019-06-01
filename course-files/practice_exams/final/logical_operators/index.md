@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Project 02
+title: Logical Operators
 nav_exclude: True
 ---
 
-# Project 02
+# Logical Operators
 
-[course-files/projects/project_02/](.)
+[course-files/practice_exams/final/logical_operators/](.)
 
 <table class="tbl-files">
     <tbody>
@@ -27,40 +27,17 @@ nav_exclude: True
             <td>&nbsp;</td>
         </tr>
 
-        <tr>
-            <td valign="top">
-                <i class="fa fa-folder"></i>
-            </td>
-            <td><a href="apis">apis</a></td>
-            <td align="right">5/28/2019 9:41 AM</td>
-            <td>384.0B</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr class="click-to-preview">
-            <td class="first-column">
-                    <i class="far fa-file"></i>
-            </td>
-            <td nowrap>
-                    <a href="README">
-                        Readme
-                    </a>
-            </td>
-            <td align="right">5/28/2019 9:51 AM</td>
-            <td>1.3KB</td>
-            <td>
-            </td>
-        </tr>
         <tr class="click-to-preview">
             <td class="first-column">
                     <i class="fab fa-lg fa-python"></i>
             </td>
             <td nowrap>
-                    <a href="music_finder.py">music_finder.py</a>
+                    <a href="01_determining_truth.py">01_determining_truth.py</a>
             </td>
-            <td align="right">5/28/2019 9:13 AM</td>
-            <td>1.8KB</td>
+            <td align="right">3/10/2019 11:30 PM</td>
+            <td>604.0B</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_02/music_finder.py"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/practice_exams/final/logical_operators/01_determining_truth.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>
@@ -69,12 +46,26 @@ nav_exclude: True
                     <i class="fab fa-lg fa-python"></i>
             </td>
             <td nowrap>
-                    <a href="restaurant_finder.py">restaurant_finder.py</a>
+                    <a href="02_and_or_not_practice_1.py">02_and_or_not_practice_1.py</a>
             </td>
-            <td align="right">6/1/2019 3:52 PM</td>
-            <td>1.8KB</td>
+            <td align="right">3/10/2019 11:42 PM</td>
+            <td>412.0B</td>
             <td>
-                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_02/restaurant_finder.py"
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/practice_exams/final/logical_operators/02_and_or_not_practice_1.py"
+                        target="_blank"><i class="fab fa-github fa-lg"></i></a>
+            </td>
+        </tr>
+        <tr class="click-to-preview">
+            <td class="first-column">
+                    <i class="fab fa-lg fa-python"></i>
+            </td>
+            <td nowrap>
+                    <a href="03_and_or_not_practice_2.py">03_and_or_not_practice_2.py</a>
+            </td>
+            <td align="right">3/10/2019 11:44 PM</td>
+            <td>428.0B</td>
+            <td>
+                    <a href="https://github.com/eecs110/spring2019/blob/master/course-files/practice_exams/final/logical_operators/03_and_or_not_practice_2.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
             </td>
         </tr>

@@ -352,7 +352,9 @@ permalink: /
                 Exam 2
             </td>
             <td></td>
-            <td><span class="label">Exam 2</span></td>
+            <td>
+                <a class="label" href="/spring2019/course-files/practice_exams/final/guide">Exam Practice <i class="fas fa-link"></i></a>
+            </td>
         </tr>
         <!-- FINALS WEEK -->
         <tr>
