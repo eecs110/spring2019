@@ -62,7 +62,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="sendgrid.py">sendgrid.py</a>
             </td>
-            <td align="right">5/28/2019 11:43 AM</td>
+            <td align="right">6/1/2019 11:34 PM</td>
             <td>1.2KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_02/apis/sendgrid.py"
@@ -76,7 +76,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="spotify.py">spotify.py</a>
             </td>
-            <td align="right">5/28/2019 9:11 AM</td>
+            <td align="right">6/1/2019 11:34 PM</td>
             <td>12.0KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_02/apis/spotify.py"
@@ -90,8 +90,8 @@ nav_exclude: True
             <td nowrap>
                     <a href="utilities.py">utilities.py</a>
             </td>
-            <td align="right">5/28/2019 11:43 AM</td>
-            <td>1.7KB</td>
+            <td align="right">6/1/2019 11:44 PM</td>
+            <td>1.8KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_02/apis/utilities.py"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
@@ -118,7 +118,7 @@ nav_exclude: True
             <td nowrap>
                     <a href="youtube.py">youtube.py</a>
             </td>
-            <td align="right">5/27/2019 10:53 PM</td>
+            <td align="right">6/1/2019 11:35 PM</td>
             <td>2.1KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/projects/project_02/apis/youtube.py"

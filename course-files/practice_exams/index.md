@@ -54,7 +54,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="final.zip">final.zip</a>
             </td>
-            <td align="right">6/1/2019 3:53 PM</td>
+            <td align="right">6/1/2019 11:45 PM</td>
             <td>16.2KB</td>
             <td>
             </td>
@@ -66,7 +66,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="midterm.zip">midterm.zip</a>
             </td>
-            <td align="right">6/1/2019 3:53 PM</td>
+            <td align="right">6/1/2019 11:45 PM</td>
             <td>9.7KB</td>
             <td>
             </td>

@@ -28,7 +28,7 @@ def _simplify(data):
     return simplified
 
 
-def get_videos(search_term, simplify=True):
+def get_videos(search_term, simplify:bool=True):
     '''
     Retrieves a list of YouTube videos.
         * search_term (str): Required search term

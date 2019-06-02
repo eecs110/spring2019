@@ -42,7 +42,10 @@ def get_dataframe(data:list):
     Converts a list of dictionaries into a flattened pandas dataframe.
     '''
     flattened_list = flatten_for_pandas(data)
-    return pd.DataFrame(flattened_list).set_index('num')
+    df = pd.DataFrame(flattened_list)
+    if len(flattened_list) > 0 and flattened_list[0].get('num'):
+        df.set_index('num')
+    return df
 
 def get_jupyter_styling():
     return """

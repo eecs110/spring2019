@@ -52,7 +52,7 @@ def get_tracks_by_artist(artist_id:str, simplify:bool=True):
         return data
     return _simplify_tracks(data['tracks'])
 
-def get_tracks_by_playlist(playlist_id:str, simplify:bool=False):
+def get_tracks_by_playlist(playlist_id:str, simplify:bool=True):
     '''
     Retrieves a list of the tracks associated with a playlist_id
         * playlist_id (str): [Required] The id of the Spotify playlist.
@@ -134,7 +134,7 @@ def get_audio_features_by_track(track_id:str):
     url = 'https://api.spotify.com/v1/audio-features/' + track_id
     return _issue_get_request(url)
 
-def get_similar_tracks(artist_ids:list=[], track_ids:list=[], genres:list=[], simplify=False): 
+def get_similar_tracks(artist_ids:list=[], track_ids:list=[], genres:list=[], simplify=True): 
     '''
     Spotify's way of providing recommendations. One or more params is required: 
     artist_ids, track_ids, or genres. Up to 5 seed values may be provided in 
