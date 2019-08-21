@@ -6,3 +6,4 @@ python zip_it.py ../projects
 
 # build indexes:
 python build_navigator.py ../.
+
