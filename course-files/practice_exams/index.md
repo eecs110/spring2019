@@ -2,7 +2,7 @@
 layout: default
 title: Practice Exams
 parent: Course Files
-nav_order: 6
+nav_order: 4
 nav_exclude: False
 ---
 
@@ -54,7 +54,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="final.zip">final.zip</a>
             </td>
-            <td align="right">6/1/2019 11:45 PM</td>
+            <td align="right">8/21/2019 9:45 AM</td>
             <td>16.2KB</td>
             <td>
             </td>
@@ -66,7 +66,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="midterm.zip">midterm.zip</a>
             </td>
-            <td align="right">6/1/2019 11:45 PM</td>
+            <td align="right">8/21/2019 9:45 AM</td>
             <td>9.7KB</td>
             <td>
             </td>

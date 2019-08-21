@@ -45,8 +45,8 @@ nav_exclude: True
             <td nowrap>
                     <a href="Jupyter  Spotify Playlists.ipynb">Jupyter  Spotify Playlists.ipynb</a>
             </td>
-            <td align="right">5/28/2019 12:40 PM</td>
-            <td>4.2KB</td>
+            <td align="right">6/6/2019 5:48 PM</td>
+            <td>62.1KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_16/answers/Jupyter  Spotify Playlists.ipynb"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>

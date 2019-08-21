@@ -6,7 +6,9 @@ from excluded import EXCLUDED
 
 def exclude(filename):
     from builtins import any
-    return any(word in filename for word in EXCLUDED)
+    file_tokens = filename.split('/')
+    print(file_tokens)
+    return any(word in file_tokens for word in EXCLUDED)
 
 def zipfolder(foldername, target_dir):         
     zipobj = zipfile.ZipFile(foldername + '.zip', 'w', zipfile.ZIP_DEFLATED)

@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 parent: Course Files
-nav_order: 7
+nav_order: 5
 nav_exclude: False
 ---
 
@@ -43,8 +43,8 @@ nav_exclude: False
                 <i class="fa fa-folder"></i>
             </td>
             <td><a href="project_02">project_02</a></td>
-            <td align="right">6/1/2019 11:35 PM</td>
-            <td>288.0B</td>
+            <td align="right">8/21/2019 9:44 AM</td>
+            <td>320.0B</td>
             <td>&nbsp;</td>
         </tr>
         <tr class="click-to-preview">
@@ -54,7 +54,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="project_01.zip">project_01.zip</a>
             </td>
-            <td align="right">6/1/2019 11:45 PM</td>
+            <td align="right">8/21/2019 9:45 AM</td>
             <td>18.6KB</td>
             <td>
             </td>
@@ -66,7 +66,7 @@ nav_exclude: False
             <td nowrap>
                     <a href="project_02.zip">project_02.zip</a>
             </td>
-            <td align="right">6/1/2019 11:45 PM</td>
+            <td align="right">8/21/2019 9:45 AM</td>
             <td>11.5KB</td>
             <td>
             </td>

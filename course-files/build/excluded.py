@@ -2,7 +2,7 @@ EXCLUDED = [
     # 'projects',
     # 'homework',
     # 'lectures',
-    # 'exams',
+    'exams',
     'tutorials',
     'build.sh',
     'zip_it.py',
@@ -20,5 +20,6 @@ EXCLUDED = [
     '.ipynb_checkpoints',
     '.DS_Store',
     'images',
-    '_site'
+    '_site',
+    '.vscode'
 ]

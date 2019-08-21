@@ -34,8 +34,8 @@ nav_exclude: True
             <td nowrap>
                     <a href="01_basic_skeleton.html">01_basic_skeleton.html</a>
             </td>
-            <td align="right">5/30/2019 11:51 AM</td>
-            <td>157.0B</td>
+            <td align="right">6/6/2019 5:49 PM</td>
+            <td>365.0B</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_17/sample_files/01_basic_skeleton.html"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>

@@ -77,8 +77,8 @@ nav_exclude: True
             <td nowrap>
                     <a href="03. Divvy Bikes Demo.ipynb">03. Divvy Bikes Demo.ipynb</a>
             </td>
-            <td align="right">5/23/2019 3:15 PM</td>
-            <td>4.1KB</td>
+            <td align="right">6/4/2019 1:41 PM</td>
+            <td>10.3KB</td>
             <td>
                     <a href="https://github.com/eecs110/spring2019/blob/master/course-files/lectures/lecture_15/notebooks/03. Divvy Bikes Demo.ipynb"
                         target="_blank"><i class="fab fa-github fa-lg"></i></a>
