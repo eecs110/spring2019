@@ -24,7 +24,7 @@ github_username:  vanwars
 # Build settings
 markdown: kramdown
 theme: "just-the-docs"
-remote_theme: "https://github.com/pmarsceill/just-the-docs/commit/2c789d408cd5dda7cadc60c99046c3bbaefc165b"
+remote_theme: "eecs110/just-the-docs@v1"
 
 # search_enabled: true
 
